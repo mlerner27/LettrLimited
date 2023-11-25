@@ -1,36 +1,36 @@
-.rectangle-encapsulator-icon1 {
+.rectangle-encapsulator-icon {
   position: absolute;
   top: 0;
   left: -4px;
   width: 353px;
   height: 1076px;
 }
-.month9,
-.name9,
-.price11 {
+.month2,
+.name2,
+.price3 {
   position: absolute;
   -webkit-text-stroke: 0.5px rgba(228, 220, 212, 0.6);
 }
-.name9 {
+.name2 {
   top: 368px;
   left: 15px;
   font-size: var(--font-size-13xl);
   font-family: var(--font-arial);
 }
-.month9,
-.price11 {
+.month2,
+.price3 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.price11 {
+.price3 {
   top: 0;
   left: 0;
   font-weight: 500;
   width: 108px;
   height: 33px;
 }
-.month9 {
+.month2 {
   top: 12px;
   left: 107px;
   font-size: var(--font-size-xl);
@@ -38,7 +38,7 @@
   width: 63px;
   height: 18px;
 }
-.pricemo1 {
+.pricemo {
   position: absolute;
   top: 431px;
   left: 14px;
@@ -46,7 +46,7 @@
   height: 33px;
   font-size: var(--font-size-13xl);
 }
-.map-pin-icon9 {
+.map-pin-icon2 {
   position: absolute;
   top: 2px;
   left: 0;
@@ -54,7 +54,7 @@
   height: 12px;
   overflow: hidden;
 }
-.greenwich-village7 {
+.greenwich-village {
   position: absolute;
   top: 0;
   left: 16px;
@@ -62,18 +62,18 @@
   text-transform: uppercase;
   font-weight: 600;
 }
-.info9 {
+.info2 {
   position: absolute;
   top: 409px;
   left: 15px;
   width: 247px;
   height: 16px;
 }
-.room-available1 {
+.room-available {
   position: relative;
   font-weight: 600;
 }
-.rooms1 {
+.rooms {
   position: absolute;
   top: 475px;
   left: 19px;
@@ -88,19 +88,19 @@
   padding: var(--padding-9xs) var(--padding-5xs);
   color: var(--system-background-light-primary);
 }
-.amenities1,
-.subway-lines-nearby1 {
+.amenities,
+.subway-lines-nearby {
   position: absolute;
   top: 601px;
   left: 16px;
   line-height: 16px;
   text-transform: uppercase;
 }
-.amenities1 {
+.amenities {
   top: 687px;
   left: 19px;
 }
-.line-1-circle1 {
+.line-1-circle {
   position: absolute;
   top: 0;
   left: 0;
@@ -109,7 +109,7 @@
   width: 31.6px;
   height: 31.6px;
 }
-.a1 {
+.a {
   position: absolute;
   top: 7px;
   left: 9px;
@@ -119,15 +119,15 @@
   width: 14.2px;
   height: 12.6px;
 }
-.c1,
-.line-1-circle-group {
+.c,
+.line-1-circle-parent {
   position: absolute;
   top: 0;
   left: 0;
   width: 31.6px;
   height: 31.6px;
 }
-.c1 {
+.c {
   top: 7px;
   left: 8.4px;
   line-height: 16px;
@@ -136,15 +136,15 @@
   width: 14.2px;
   height: 12.6px;
 }
-.e1,
-.line-2-circle-group {
+.e,
+.line-2-circle-parent {
   position: absolute;
   top: 0;
   left: 45.6px;
   width: 31.6px;
   height: 31.6px;
 }
-.e1 {
+.e {
   top: 7px;
   left: 8.8px;
   line-height: 16px;
@@ -153,20 +153,20 @@
   width: 13.4px;
   height: 12.6px;
 }
-.line-3-circle-group,
-.line-4-circle1 {
+.line-3-circle-parent,
+.line-4-circle {
   position: absolute;
   top: 0;
   left: 91.2px;
   width: 31.6px;
   height: 31.6px;
 }
-.line-4-circle1 {
+.line-4-circle {
   left: 0;
   border-radius: 50%;
   background-color: var(--color-darkorange-200);
 }
-.b7 {
+.b5 {
   position: absolute;
   top: 7px;
   left: 9.1px;
@@ -176,15 +176,15 @@
   width: 14.2px;
   height: 12.6px;
 }
-.d1,
-.line-4-circle-group {
+.d,
+.line-4-circle-parent {
   position: absolute;
   top: 0;
   left: 136.9px;
   width: 31.6px;
   height: 31.6px;
 }
-.d1 {
+.d {
   top: 7px;
   left: 8.5px;
   line-height: 16px;
@@ -193,15 +193,15 @@
   width: 14.2px;
   height: 12.6px;
 }
-.f1,
-.line-5-circle-group {
+.f,
+.line-5-circle-parent {
   position: absolute;
   top: 0;
   left: 182.5px;
   width: 31.6px;
   height: 31.6px;
 }
-.f1 {
+.f {
   top: 7px;
   left: 9.9px;
   line-height: 16px;
@@ -210,15 +210,15 @@
   width: 11.9px;
   height: 12.6px;
 }
-.line-6-circle-group,
-.m1 {
+.line-6-circle-parent,
+.m {
   position: absolute;
   top: 0;
   left: 228.1px;
   width: 31.6px;
   height: 31.6px;
 }
-.m1 {
+.m {
   top: 7px;
   left: 8.3px;
   line-height: 16px;
@@ -227,15 +227,15 @@
   width: 15.8px;
   height: 12.6px;
 }
-.line-7-circle-group,
-.subway-lines1 {
+.line-7-circle-parent,
+.subway-lines {
   position: absolute;
   top: 0;
   left: 273.7px;
   width: 31.6px;
   height: 31.6px;
 }
-.subway-lines1 {
+.subway-lines {
   top: 635px;
   left: 17px;
   width: 305.3px;
@@ -243,16 +243,16 @@
   color: var(--system-background-light-primary);
   font-family: var(--font-helvetica);
 }
-.wifi-included7 {
+.wifi-included3 {
   margin-bottom: 0;
 }
-.wifi-included6 {
+.wifi-included2 {
   margin: 0;
   padding-left: var(--padding-2xl);
 }
-.dog-friendly2,
-.in-unit-laundry3,
-.wifi-included5 {
+.dog-friendly,
+.in-unit-laundry,
+.wifi-included1 {
   position: absolute;
   top: 714px;
   left: 1px;
@@ -263,20 +263,20 @@
   width: 140px;
   height: 44px;
 }
-.dog-friendly2,
-.in-unit-laundry3 {
+.dog-friendly,
+.in-unit-laundry {
   top: 737px;
   left: 10px;
   width: 116px;
   height: 21px;
 }
-.in-unit-laundry3 {
+.in-unit-laundry {
   top: 714px;
   left: 135px;
   width: 164px;
   height: 44px;
 }
-.message-rectangle1 {
+.message-rectangle {
   position: absolute;
   top: 0;
   left: 0;
@@ -285,37 +285,37 @@
   width: 151px;
   height: 46px;
 }
-.message7 {
+.message6 {
   position: absolute;
   top: 11px;
   left: 31px;
   font-weight: 600;
 }
-.archive-rectangle1,
-.message-button1 {
+.archive-rectangle,
+.message-button {
   position: absolute;
   width: 151px;
   height: 46px;
 }
-.message-button1 {
+.message-button {
   top: 997px;
   left: 175px;
   font-size: var(--font-size-xl);
   color: var(--system-background-light-primary);
 }
-.archive-rectangle1 {
+.archive-rectangle {
   top: 0;
   left: 0;
   border-radius: var(--br-mini);
   background-color: var(--color-navajowhite);
 }
-.archive1 {
+.archive {
   position: absolute;
   top: 11px;
   left: 38px;
   font-weight: 600;
 }
-.archive-button1 {
+.archive-button {
   position: absolute;
   top: 997px;
   left: 15px;
@@ -324,21 +324,21 @@
   font-size: var(--font-size-xl);
   color: var(--system-background-light-primary);
 }
-.hosted-by1,
-.letter-names1 {
+.hosted-by,
+.letter-names {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.letter-names1 {
+.letter-names {
   top: 36px;
   left: 136px;
   width: 126px;
   height: 18px;
   -webkit-text-stroke: 0.5px rgba(228, 220, 212, 0.6);
 }
-.hosted-by1 {
+.hosted-by {
   top: 17px;
   left: 138px;
   font-size: var(--font-size-xs);
@@ -346,8 +346,7 @@
   width: 56px;
   height: 17px;
 }
-.first-letter-icon1,
-.second-letter-icon1 {
+.second-letter-icon {
   position: absolute;
   top: 1px;
   left: 52px;
@@ -355,24 +354,27 @@
   height: 69px;
   object-fit: cover;
 }
-.first-letter-icon1 {
+.first-letter-icon,
+.letters {
+  position: absolute;
+  height: 70px;
+}
+.first-letter-icon {
   top: 0;
   left: 0;
   width: 70px;
-  height: 70px;
+  object-fit: cover;
 }
-.letters1 {
-  position: absolute;
+.letters {
   top: 515px;
   left: 18px;
   width: 262px;
-  height: 70px;
   font-size: var(--font-size-xl);
   font-family: var(--font-arial);
 }
-.image-icon1,
-.map-pic-icon3,
-.x-icon1 {
+.image-icon,
+.map-pic-icon1,
+.x-icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -380,27 +382,34 @@
   height: 357px;
   object-fit: cover;
 }
-.map-pic-icon3,
-.x-icon1 {
+.map-pic-icon1,
+.x-icon {
   top: 776px;
   left: 18px;
   width: 310px;
   height: 203px;
 }
-.x-icon1 {
+.x-icon {
   top: 0;
   left: 294px;
   width: 50px;
   height: 50px;
 }
-.area-circle-icon1 {
+.area-circle-icon,
+.expanded-1 {
   position: absolute;
   top: 839px;
   left: 141px;
   width: 68px;
   height: 66px;
 }
-.expanded-11 {
+.expanded-1 {
+  top: 0;
+  left: 0;
+  width: 345px;
+  height: 1068px;
+}
+.expanded-master {
   position: relative;
   width: 100%;
   height: 1068px;

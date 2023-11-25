@@ -1,4 +1,4 @@
-.home-indicator6 {
+.home-indicator3 {
   position: absolute;
   bottom: 28px;
   left: calc(50% - 77px);
@@ -7,7 +7,7 @@
   width: 134px;
   height: 5px;
 }
-.back-arrow-icon4,
+.back-arrow-icon1,
 .preview-icon {
   position: absolute;
   top: 42px;
@@ -21,7 +21,7 @@
   width: 68px;
   height: 66px;
 }
-.name4 {
+.name1 {
   position: absolute;
   top: 119px;
   left: 92px;
@@ -387,7 +387,7 @@
   justify-content: flex-start;
   gap: var(--gap-7xs);
   font-size: var(--default-regular-callout-size);
-  font-family: var(--default-bold-subheadline);
+  font-family: var(--subheadline-regular);
 }
 .icon-dictation,
 .icon-emoji {
@@ -410,7 +410,7 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.home-indicator7 {
+.home-indicator4 {
   position: absolute;
   bottom: 8px;
   left: calc(50% - 66.5px);
@@ -524,7 +524,7 @@
   padding: var(--padding-7xs) var(--padding-xs);
   z-index: 0;
 }
-.vector-icon1 {
+.vector-icon {
   position: relative;
   width: 16.4px;
   height: 20.3px;
@@ -587,7 +587,7 @@
   align-items: flex-end;
   justify-content: flex-end;
 }
-.vector-icon3 {
+.vector-icon2 {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -607,7 +607,7 @@
   position: absolute;
   top: 182px;
   left: 22px;
-  font-size: var(--default-bold-subheadline-size);
+  font-size: var(--subheadline-regular-size);
   letter-spacing: -0.24px;
   line-height: 20px;
   display: inline-block;
@@ -640,7 +640,7 @@
   left: 0;
   width: 205.2px;
 }
-.vector-icon6 {
+.vector-icon5 {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -660,7 +660,7 @@
   position: absolute;
   top: 317px;
   left: 22px;
-  font-size: var(--default-bold-subheadline-size);
+  font-size: var(--subheadline-regular-size);
   letter-spacing: -0.24px;
   line-height: 20px;
   display: inline-block;
@@ -681,8 +681,8 @@
 .span {
   letter-spacing: 0.07px;
 }
-.time8,
-.time9 {
+.time3,
+.time4 {
   position: absolute;
   top: 169px;
   left: 57px;
@@ -692,11 +692,11 @@
   display: inline-block;
   width: 267px;
 }
-.time9 {
+.time4 {
   top: 427px;
   left: 55px;
 }
-.notch-icon6 {
+.notch-icon3 {
   position: absolute;
   height: calc(100% - 2px);
   width: calc(100% - 39px);
@@ -708,7 +708,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.right-side-icon12 {
+.right-side-icon6 {
   position: absolute;
   top: 17.3px;
   right: 14.6px;
@@ -716,13 +716,13 @@
   height: 11.3px;
   display: none;
 }
-.div15,
-.left-side6,
-.time10 {
+.div6,
+.left-side3,
+.time5 {
   position: absolute;
   width: 54px;
 }
-.div15 {
+.div6 {
   top: 1px;
   left: 0;
   letter-spacing: -0.5px;
@@ -731,21 +731,21 @@
   display: inline-block;
   height: 20px;
 }
-.left-side6,
-.time10 {
+.left-side3,
+.time5 {
   height: 21px;
 }
-.time10 {
+.time5 {
   top: 0;
   left: 0;
   border-radius: var(--br-5xl);
 }
-.left-side6 {
+.left-side3 {
   top: 12px;
   left: 24px;
   display: none;
 }
-.status-bar-iphone-x-or-newe6 {
+.status-bar-iphone-x-or-newe3 {
   position: absolute;
   top: 0;
   left: 42px;
@@ -753,7 +753,7 @@
   height: 32px;
   overflow: hidden;
 }
-.div16 {
+.div7 {
   position: absolute;
   top: 12px;
   left: 0;
@@ -764,21 +764,21 @@
   width: 54px;
   height: 20px;
 }
-.right-side-icon13 {
+.right-side-icon7 {
   position: absolute;
   top: 16px;
   right: 0;
   width: 66.7px;
   height: 11.3px;
 }
-.iphone-top6 {
+.iphone-top3 {
   position: absolute;
   top: 2px;
   left: 25px;
   width: 346.7px;
   height: 32px;
   text-align: center;
-  font-size: var(--default-bold-subheadline-size);
+  font-size: var(--subheadline-regular-size);
   color: var(--label-color-light-primary);
 }
 .chat-1-master {
@@ -788,5 +788,5 @@
   text-align: left;
   font-size: var(--body-regular-size);
   color: var(--label-color-light-secondary);
-  font-family: var(--default-bold-subheadline);
+  font-family: var(--subheadline-regular);
 }

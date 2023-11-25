@@ -1,4 +1,4 @@
-.saved3 {
+.saved1 {
   position: absolute;
   top: calc(50% - 386px);
   left: calc(50% - 81px);
@@ -10,7 +10,7 @@
   width: 143px;
   height: 33px;
 }
-.preferences-icon4 {
+.preferences-icon1 {
   position: absolute;
   top: 46px;
   left: 336px;
@@ -18,7 +18,7 @@
   height: 35px;
   object-fit: cover;
 }
-.home-indicator17 {
+.home-indicator8 {
   position: absolute;
   bottom: 28px;
   left: calc(50% - 77px);
@@ -27,8 +27,7 @@
   width: 134px;
   height: 5px;
 }
-.back-arrow-icon9,
-.image-1-icon5 {
+.back-arrow-icon4 {
   position: absolute;
   top: 42px;
   left: 20px;
@@ -36,33 +35,26 @@
   height: 40px;
   object-fit: cover;
 }
-.image-1-icon5 {
-  top: 15px;
-  left: 17px;
-  border-radius: var(--br-3xs);
-  width: 330px;
-  height: 184px;
-}
-.letter-11,
-.name-11 {
+.letter-1,
+.name-1 {
   position: absolute;
   letter-spacing: -0.24px;
   display: inline-block;
 }
-.name-11 {
+.name-1 {
   top: 204px;
   left: 24px;
   text-align: left;
   width: 183px;
   height: 24px;
 }
-.letter-11 {
+.letter-1 {
   top: 54.8px;
   left: 0;
   width: 90.8px;
   height: 11.2px;
 }
-.picture-1-icon1 {
+.picture-1-icon {
   position: absolute;
   top: 1px;
   left: 18.3px;
@@ -70,7 +62,7 @@
   height: 59.4px;
   object-fit: cover;
 }
-.profile-pic2 {
+.profile-pic {
   position: absolute;
   top: 208.2px;
   left: 271px;
@@ -78,11 +70,11 @@
   height: 65.9px;
   font-size: var(--font-size-3xs);
 }
-.month10 {
+.month {
   position: relative;
   font-weight: 500;
 }
-.price12 {
+.price1 {
   position: absolute;
   top: 253px;
   left: 24px;
@@ -102,14 +94,14 @@
   color: var(--color-snow);
   font-family: var(--subheadline-regular);
 }
-.map-pin-icon10 {
+.map-pin-icon {
   position: relative;
   width: 10.7px;
   height: 10.3px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.morningside-heights1 {
+.morningside-heights {
   position: relative;
   line-height: 16px;
   text-transform: uppercase;
@@ -119,7 +111,7 @@
   height: 13.8px;
   flex-shrink: 0;
 }
-.info10 {
+.info {
   position: absolute;
   top: 233.3px;
   left: 24px;
@@ -133,7 +125,7 @@
   font-size: var(--font-size-xs);
   font-family: var(--subheadline-regular);
 }
-.listing-13 {
+.listing-1 {
   position: absolute;
   top: 98px;
   left: 10px;
@@ -144,15 +136,25 @@
   width: 365px;
   height: 290px;
 }
-.image-2-icon5 {
+.image-2-icon,
+.image-2-icon1 {
   position: absolute;
+  object-fit: cover;
+}
+.image-2-icon {
+  top: 15px;
+  left: 17px;
+  border-radius: var(--br-3xs);
+  width: 330px;
+  height: 184px;
+}
+.image-2-icon1 {
   top: 0;
   left: 18.3px;
   width: 59px;
   height: 54px;
-  object-fit: cover;
 }
-.archive-card1 {
+.archive-card {
   position: absolute;
   top: 0;
   left: 0;
@@ -163,24 +165,25 @@
   width: 365px;
   height: 290px;
 }
-.map-pin-icon11 {
+.map-pin-icon1,
+.west-village {
   position: relative;
+  flex-shrink: 0;
+}
+.map-pin-icon1 {
   width: 12px;
   height: 10.3px;
   overflow: hidden;
-  flex-shrink: 0;
 }
-.west-village1 {
-  position: relative;
+.west-village {
   line-height: 16px;
   text-transform: uppercase;
   font-weight: 600;
   display: inline-block;
   width: 148px;
   height: 13.8px;
-  flex-shrink: 0;
 }
-.info11 {
+.info1 {
   position: absolute;
   top: 234px;
   left: 25px;
@@ -194,14 +197,14 @@
   font-size: var(--font-size-xs);
   font-family: var(--subheadline-regular);
 }
-.listing-23 {
+.listing-2 {
   position: absolute;
   top: 407px;
   left: 10px;
   width: 365px;
   height: 290px;
 }
-.notch-icon16 {
+.notch-icon7 {
   position: absolute;
   height: calc(100% - 2px);
   width: calc(100% - 39px);
@@ -213,7 +216,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.right-side-icon32 {
+.right-side-icon14 {
   position: absolute;
   top: 17.3px;
   right: 14.6px;
@@ -221,34 +224,36 @@
   height: 11.3px;
   display: none;
 }
-.div38 {
+.div17,
+.left-side7,
+.time11 {
   position: absolute;
+  width: 54px;
+}
+.div17 {
   top: 1px;
   left: 0;
   letter-spacing: -0.5px;
   line-height: 20px;
   font-weight: 600;
   display: inline-block;
-  width: 54px;
   height: 20px;
 }
-.left-side16,
-.time22 {
-  position: absolute;
-  width: 54px;
+.left-side7,
+.time11 {
   height: 21px;
 }
-.time22 {
+.time11 {
   top: 0;
   left: 0;
   border-radius: var(--br-5xl);
 }
-.left-side16 {
+.left-side7 {
   top: 12px;
   left: 24px;
   display: none;
 }
-.status-bar-iphone-x-or-newe16 {
+.status-bar-iphone-x-or-newe7 {
   position: absolute;
   top: 0;
   left: 42px;
@@ -256,7 +261,7 @@
   height: 32px;
   overflow: hidden;
 }
-.div39 {
+.div18 {
   position: absolute;
   top: 12px;
   left: 0;
@@ -267,14 +272,14 @@
   width: 54px;
   height: 20px;
 }
-.right-side-icon33 {
+.right-side-icon15 {
   position: absolute;
   top: 16px;
   right: 0;
   width: 66.7px;
   height: 11.3px;
 }
-.iphone-top16 {
+.iphone-top7 {
   position: absolute;
   top: 0;
   left: 19px;
@@ -283,7 +288,7 @@
   font-size: var(--subheadline-regular-size);
   font-family: var(--subheadline-regular);
 }
-.icon-box8 {
+.icon-box3 {
   position: absolute;
   top: 0;
   left: 0;
@@ -292,8 +297,8 @@
   width: 370px;
   height: 96px;
 }
-.chat-icon8,
-.home-outline-icon8 {
+.chat-icon3,
+.home-outline-icon3 {
   position: absolute;
   top: 15px;
   left: 31px;
@@ -301,12 +306,12 @@
   height: 64px;
   object-fit: cover;
 }
-.home-outline-icon8 {
+.home-outline-icon3 {
   top: 0;
   left: 0;
 }
-.home-left-fill8,
-.home-right-fill8 {
+.home-left-fill3,
+.home-right-fill3 {
   position: absolute;
   top: 28px;
   left: 13px;
@@ -314,46 +319,53 @@
   width: 13px;
   height: 26px;
 }
-.home-left-fill8 {
+.home-left-fill3 {
   left: 39px;
 }
-.home-top-fill8 {
+.home-top-fill3 {
   position: absolute;
   top: 10px;
   left: 11px;
   width: 44px;
   height: 24px;
 }
-.home-icon8,
-.profile-icon8 {
+.home-icon3,
+.profile-icon3 {
   position: absolute;
   top: 15px;
   left: 153px;
   width: 64px;
   height: 64px;
 }
-.profile-icon8 {
+.profile-icon3 {
   top: 17px;
   left: 275px;
   object-fit: cover;
 }
-.bottom-panel8 {
+.bottom-panel3,
+.saved {
   position: absolute;
   top: 723px;
   left: 10px;
   width: 370px;
   height: 96px;
 }
-.saved2 {
-  position: relative;
+.saved {
+  top: -10px;
+  left: -10px;
   border-radius: var(--br-26xl);
   background-color: var(--system-background-light-primary);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border: 10px solid var(--color-whitesmoke-100);
   box-sizing: border-box;
-  width: 100%;
+  width: 410px;
   height: 864px;
   overflow: hidden;
+}
+.archive-master {
+  position: relative;
+  width: 100%;
+  height: 844px;
   text-align: center;
   font-size: var(--font-size-6xl);
   color: var(--label-color-light-primary);

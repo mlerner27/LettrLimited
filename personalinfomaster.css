@@ -1,4 +1,4 @@
-.logo4 {
+.logo {
   position: absolute;
   top: calc(50% - 386px);
   left: calc(50% - 49px);
@@ -11,7 +11,7 @@
   width: 77px;
   height: 33px;
 }
-.home-indicator5 {
+.home-indicator2 {
   position: absolute;
   bottom: 28px;
   left: calc(50% - 77px);
@@ -40,11 +40,11 @@
   flex-shrink: 0;
   display: none;
 }
-.name3,
+.name,
 .school {
   position: absolute;
 }
-.name3 {
+.name {
   top: 298px;
   left: 151px;
   border-radius: var(--br-3xs);
@@ -90,7 +90,7 @@
   left: 168px;
 }
 .age,
-.b1,
+.b,
 .gender {
   position: absolute;
 }
@@ -110,7 +110,7 @@
   padding: var(--padding-lg) var(--padding-base);
   gap: var(--gap-3xs);
 }
-.b1 {
+.b {
   top: 497px;
   left: 337px;
   font-size: var(--font-size-4xl);
@@ -122,7 +122,7 @@
   width: 86px;
   height: 47px;
 }
-.back-arrow-icon3 {
+.back-arrow-icon {
   position: absolute;
   top: 42px;
   left: 20px;
@@ -130,7 +130,7 @@
   height: 40px;
   object-fit: cover;
 }
-.continue-box1 {
+.continue-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -139,7 +139,7 @@
   width: 335px;
   height: 46px;
 }
-.continue1 {
+.continue {
   position: absolute;
   top: 8px;
   left: 58px;
@@ -148,7 +148,7 @@
   justify-content: center;
   width: 216.3px;
 }
-.continue-button1 {
+.continue-button {
   position: absolute;
   top: 755px;
   left: 28px;
@@ -159,7 +159,7 @@
   color: var(--system-background-light-primary);
   font-family: var(--font-arial);
 }
-.notch-icon5 {
+.notch-icon2 {
   position: absolute;
   height: calc(100% - 2px);
   width: calc(100% - 39px);
@@ -171,7 +171,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.right-side-icon10 {
+.right-side-icon4 {
   position: absolute;
   top: 17.3px;
   right: 14.6px;
@@ -179,13 +179,13 @@
   height: 11.3px;
   display: none;
 }
-.div13,
-.left-side5,
-.time7 {
+.div4,
+.left-side2,
+.time2 {
   position: absolute;
   width: 54px;
 }
-.div13 {
+.div4 {
   top: 1px;
   left: 0;
   letter-spacing: -0.5px;
@@ -194,21 +194,21 @@
   display: inline-block;
   height: 20px;
 }
-.left-side5,
-.time7 {
+.left-side2,
+.time2 {
   height: 21px;
 }
-.time7 {
+.time2 {
   top: 0;
   left: 0;
   border-radius: var(--br-5xl);
 }
-.left-side5 {
+.left-side2 {
   top: 12px;
   left: 24px;
   display: none;
 }
-.status-bar-iphone-x-or-newe5 {
+.status-bar-iphone-x-or-newe2 {
   position: absolute;
   top: 0;
   left: 42px;
@@ -216,7 +216,7 @@
   height: 32px;
   overflow: hidden;
 }
-.div14 {
+.div5 {
   position: absolute;
   top: 12px;
   left: 0;
@@ -227,14 +227,14 @@
   width: 54px;
   height: 20px;
 }
-.right-side-icon11 {
+.right-side-icon5 {
   position: absolute;
   top: 16px;
   right: 0;
   width: 66.7px;
   height: 11.3px;
 }
-.iphone-top5,
+.iphone-top2,
 .personal-info {
   position: absolute;
   top: 0;
@@ -242,9 +242,9 @@
   width: 346.7px;
   height: 32px;
   text-align: center;
-  font-size: var(--default-bold-subheadline-size);
+  font-size: var(--subheadline-regular-size);
   color: var(--label-color-light-primary);
-  font-family: var(--default-bold-subheadline);
+  font-family: var(--subheadline-regular);
 }
 .personal-info {
   top: -10px;
@@ -262,7 +262,7 @@
   color: var(--color-gray-200);
   font-family: var(--font-inter);
 }
-.b2,
+.b1,
 .i-am,
 .my-name-is {
   position: absolute;
@@ -273,19 +273,19 @@
   width: 183px;
   height: 50px;
 }
-.b2,
+.b1,
 .i-am {
   top: 364px;
   left: 58px;
   width: 86px;
   height: 47px;
 }
-.b2 {
+.b1 {
   top: 305px;
   left: 353px;
 }
+.b2,
 .b3,
-.b4,
 .i-identify-as,
 .i-study-at,
 .my-occupation-is,
@@ -298,8 +298,8 @@
   width: 205px;
   height: 42px;
 }
+.b2,
 .b3,
-.b4,
 .i-study-at,
 .my-occupation-is,
 .years-old {
@@ -308,7 +308,7 @@
   width: 86px;
   height: 47px;
 }
-.b4,
+.b3,
 .i-study-at,
 .my-occupation-is,
 .years-old {
@@ -317,7 +317,7 @@
   width: 258px;
   height: 40px;
 }
-.b4,
+.b3,
 .i-study-at,
 .years-old {
   top: 551px;

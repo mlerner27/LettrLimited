@@ -29,8 +29,8 @@
   width: 90px;
   height: 33px;
 }
-.archive-icon1,
-.preferences-icon1 {
+.archive-icon,
+.preferences-icon {
   position: absolute;
   top: 46px;
   left: 20px;
@@ -38,10 +38,10 @@
   height: 35px;
   object-fit: cover;
 }
-.preferences-icon1 {
+.preferences-icon {
   left: 336px;
 }
-.home-indicator3 {
+.home-indicator1 {
   position: absolute;
   bottom: 28px;
   left: calc(50% - 77px);
@@ -94,7 +94,7 @@
   width: 13px;
   height: 13px;
 }
-.notch-icon3 {
+.notch-icon1 {
   position: absolute;
   height: calc(100% - 2px);
   width: calc(100% - 39px);
@@ -106,7 +106,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.right-side-icon6 {
+.right-side-icon2 {
   position: absolute;
   top: 17.3px;
   right: 14.6px;
@@ -114,13 +114,13 @@
   height: 11.3px;
   display: none;
 }
-.div9,
-.left-side3,
-.time5 {
+.div2,
+.left-side1,
+.time1 {
   position: absolute;
   width: 54px;
 }
-.div9 {
+.div2 {
   top: 1px;
   left: 0;
   letter-spacing: -0.5px;
@@ -129,21 +129,21 @@
   display: inline-block;
   height: 20px;
 }
-.left-side3,
-.time5 {
+.left-side1,
+.time1 {
   height: 21px;
 }
-.time5 {
+.time1 {
   top: 0;
   left: 0;
   border-radius: var(--br-5xl);
 }
-.left-side3 {
+.left-side1 {
   top: 12px;
   left: 24px;
   display: none;
 }
-.status-bar-iphone-x-or-newe3 {
+.status-bar-iphone-x-or-newe1 {
   position: absolute;
   top: 0;
   left: 42px;
@@ -151,7 +151,7 @@
   height: 32px;
   overflow: hidden;
 }
-.div10 {
+.div3 {
   position: absolute;
   top: 12px;
   left: 0;
@@ -162,24 +162,24 @@
   width: 54px;
   height: 20px;
 }
-.right-side-icon7 {
+.right-side-icon3 {
   position: absolute;
   top: 16px;
   right: 0;
   width: 66.7px;
   height: 11.3px;
 }
-.iphone-top3 {
+.iphone-top1 {
   position: absolute;
   top: 0;
   left: 22px;
   width: 346.7px;
   height: 32px;
-  font-size: var(--default-bold-subheadline-size);
+  font-size: var(--subheadline-regular-size);
   color: var(--label-color-light-primary);
-  font-family: var(--default-bold-subheadline);
+  font-family: var(--subheadline-regular);
 }
-.icon-box3 {
+.icon-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -188,8 +188,8 @@
   width: 370px;
   height: 96px;
 }
-.chat-icon3,
-.home-outline-icon3 {
+.chat-icon,
+.home-outline-icon {
   position: absolute;
   top: 15px;
   left: 31px;
@@ -197,12 +197,12 @@
   height: 64px;
   object-fit: cover;
 }
-.home-outline-icon3 {
+.home-outline-icon {
   top: 0;
   left: 0;
 }
-.home-left-fill3,
-.home-right-fill3 {
+.home-left-fill,
+.home-right-fill {
   position: absolute;
   top: 28px;
   left: 13px;
@@ -210,30 +210,30 @@
   width: 13px;
   height: 26px;
 }
-.home-left-fill3 {
+.home-left-fill {
   left: 39px;
 }
-.home-top-fill3 {
+.home-top-fill {
   position: absolute;
   top: 10px;
   left: 11px;
   width: 44px;
   height: 24px;
 }
-.home-icon3,
-.profile-icon3 {
+.home-icon,
+.profile-icon {
   position: absolute;
   top: 15px;
   left: 153px;
   width: 64px;
   height: 64px;
 }
-.profile-icon3 {
+.profile-icon {
   top: 17px;
   left: 275px;
   object-fit: cover;
 }
-.bottom-panel3,
+.bottom-panel,
 .chat-home {
   position: absolute;
   top: 725px;

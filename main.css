@@ -1,4 +1,4 @@
-.time14 {
+.time23 {
   position: relative;
   letter-spacing: -0.5px;
   line-height: 20px;
@@ -8,7 +8,7 @@
   height: 20px;
   flex-shrink: 0;
 }
-.notch-icon10 {
+.notch-icon17 {
   position: absolute;
   height: calc(100% - 2px);
   width: calc(100% - 39px);
@@ -20,7 +20,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.right-side-icon20 {
+.right-side-icon34 {
   position: absolute;
   top: 17.3px;
   right: 14.6px;
@@ -28,7 +28,7 @@
   height: 11.3px;
   display: none;
 }
-.div23 {
+.div40 {
   position: absolute;
   top: 1px;
   left: 0;
@@ -39,35 +39,35 @@
   width: 54px;
   height: 20px;
 }
-.left-side10,
-.time15 {
+.left-side17,
+.time24 {
   position: absolute;
   width: 54px;
   height: 21px;
 }
-.time15 {
+.time24 {
   top: 0;
   left: 0;
   border-radius: var(--br-5xl);
 }
-.left-side10 {
+.left-side17 {
   top: 12px;
   left: 24px;
   display: none;
 }
-.status-bar-iphone-x-or-newe10 {
+.status-bar-iphone-x-or-newe17 {
   position: relative;
   width: 258px;
   height: 32px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.right-side-icon21 {
+.right-side-icon35 {
   position: relative;
   width: 66.7px;
   height: 11.3px;
 }
-.iphone-top10 {
+.iphone-top17 {
   align-self: stretch;
   overflow: hidden;
   display: flex;
@@ -95,36 +95,36 @@
   justify-content: flex-start;
   gap: 269px;
 }
-.lettr,
-.logo7,
+.lettr1,
+.logo12,
 .top-fill {
   align-self: stretch;
 }
-.lettr {
+.lettr1 {
   position: relative;
   letter-spacing: -0.24px;
 }
-.logo7 {
+.logo12 {
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  font-size: 110px;
+  font-size: var(--font-size-91xl);
 }
-.finding-you-a {
+.finding-you-a1 {
   align-self: stretch;
   position: relative;
-  font-size: 27px;
+  font-size: var(--font-size-8xl);
   letter-spacing: -0.24px;
 }
-.button2 {
+.button5 {
   position: relative;
   line-height: 125%;
   font-weight: 600;
 }
-.button-primary2,
-.button-secondary {
+.button-primary4,
+.button-secondary1 {
   align-self: stretch;
   border-radius: var(--br-3xs);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -136,12 +136,12 @@
   padding: var(--padding-mid) var(--padding-133xl);
   box-sizing: border-box;
 }
-.button-primary2 {
+.button-primary4 {
   background-color: var(--system-background-light-primary);
-  color: #fca351;
+  color: var(--color-sandybrown-300);
 }
-.button-secondary {
-  background-color: #ff6001;
+.button-secondary1 {
+  background-color: var(--color-orangered);
 }
 .middle {
   justify-content: center;
@@ -168,14 +168,14 @@
   justify-content: flex-start;
   gap: 7px;
 }
-.home-indicator11 {
+.home-indicator18 {
   position: relative;
   border-radius: var(--br-81xl);
   background-color: var(--label-color-light-primary);
   width: 134px;
   height: 5px;
 }
-.main {
+.main1 {
   position: relative;
   border-radius: var(--br-26xl);
   background-color: var(--color-darkorange-400);
@@ -191,7 +191,7 @@
   padding: 0 19.338775634765625px 0 24px;
   gap: 315px;
   text-align: center;
-  font-size: var(--default-bold-subheadline-size);
+  font-size: var(--subheadline-regular-size);
   color: var(--label-color-light-primary);
-  font-family: var(--default-bold-subheadline);
+  font-family: var(--subheadline-regular);
 }

@@ -1,4 +1,4 @@
-.logo5 {
+.logo1 {
   position: absolute;
   top: calc(50% - 386px);
   left: calc(50% - 49px);
@@ -7,7 +7,7 @@
   width: 77px;
   height: 33px;
 }
-.home-indicator8 {
+.home-indicator5 {
   position: absolute;
   bottom: 28px;
   left: calc(50% - 77px);
@@ -16,7 +16,7 @@
   width: 134px;
   height: 5px;
 }
-.notch-icon7 {
+.notch-icon4 {
   position: absolute;
   height: calc(100% - 2px);
   width: calc(100% - 39px);
@@ -28,7 +28,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.right-side-icon14 {
+.right-side-icon8 {
   position: absolute;
   top: 17.3px;
   right: 14.6px;
@@ -36,13 +36,13 @@
   height: 11.3px;
   display: none;
 }
-.div17,
-.left-side7,
-.time11 {
+.div8,
+.left-side4,
+.time6 {
   position: absolute;
   width: 54px;
 }
-.div17 {
+.div8 {
   top: 1px;
   left: 0;
   letter-spacing: -0.5px;
@@ -51,21 +51,21 @@
   display: inline-block;
   height: 20px;
 }
-.left-side7,
-.time11 {
+.left-side4,
+.time6 {
   height: 21px;
 }
-.time11 {
+.time6 {
   top: 0;
   left: 0;
   border-radius: var(--br-5xl);
 }
-.left-side7 {
+.left-side4 {
   top: 12px;
   left: 24px;
   display: none;
 }
-.status-bar-iphone-x-or-newe7 {
+.status-bar-iphone-x-or-newe4 {
   position: absolute;
   top: 0;
   left: 42px;
@@ -73,7 +73,7 @@
   height: 32px;
   overflow: hidden;
 }
-.div18 {
+.div9 {
   position: absolute;
   top: 12px;
   left: 0;
@@ -84,22 +84,22 @@
   width: 54px;
   height: 20px;
 }
-.right-side-icon15 {
+.right-side-icon9 {
   position: absolute;
   top: 16px;
   right: 0;
   width: 66.7px;
   height: 11.3px;
 }
-.iphone-top7 {
+.iphone-top4 {
   position: absolute;
   top: 0;
   left: 24px;
   width: 346.7px;
   height: 32px;
-  font-size: var(--default-bold-subheadline-size);
+  font-size: var(--subheadline-regular-size);
   color: var(--label-color-light-primary);
-  font-family: var(--default-bold-subheadline);
+  font-family: var(--subheadline-regular);
 }
 .create-account {
   position: absolute;
@@ -246,12 +246,12 @@
   justify-content: flex-start;
   gap: var(--gap-7xs);
 }
-.button {
+.button2 {
   position: relative;
   line-height: 125%;
   font-weight: 600;
 }
-.button-primary {
+.button-primary1 {
   position: absolute;
   top: 443px;
   left: 0;
