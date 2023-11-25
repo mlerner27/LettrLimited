@@ -1,0 +1,197 @@
+.time14 {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.notch-icon10 {
+  position: absolute;
+  height: calc(100% - 2px);
+  width: calc(100% - 39px);
+  top: 0;
+  right: 20px;
+  bottom: 2px;
+  left: 19px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.right-side-icon20 {
+  position: absolute;
+  top: 17.3px;
+  right: 14.6px;
+  width: 66.7px;
+  height: 11.3px;
+  display: none;
+}
+.div23 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+}
+.left-side10,
+.time15 {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+}
+.time15 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+}
+.left-side10 {
+  top: 12px;
+  left: 24px;
+  display: none;
+}
+.status-bar-iphone-x-or-newe10 {
+  position: relative;
+  width: 258px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.right-side-icon21 {
+  position: relative;
+  width: 66.7px;
+  height: 11.3px;
+}
+.iphone-top10 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.icons8-folder-50-1 {
+  position: relative;
+  width: 44px;
+  height: 34px;
+}
+.icons8-adjust-64-1 {
+  position: relative;
+  width: 32px;
+  height: 49px;
+}
+.top-fill {
+  height: 49px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 269px;
+}
+.lettr,
+.logo7,
+.top-fill {
+  align-self: stretch;
+}
+.lettr {
+  position: relative;
+  letter-spacing: -0.24px;
+}
+.logo7 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 110px;
+}
+.finding-you-a {
+  align-self: stretch;
+  position: relative;
+  font-size: 27px;
+  letter-spacing: -0.24px;
+}
+.button2 {
+  position: relative;
+  line-height: 125%;
+  font-weight: 600;
+}
+.button-primary2,
+.button-secondary {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-133xl);
+  box-sizing: border-box;
+}
+.button-primary2 {
+  background-color: var(--system-background-light-primary);
+  color: #fca351;
+}
+.button-secondary {
+  background-color: #ff6001;
+}
+.middle {
+  justify-content: center;
+  gap: 14px;
+}
+.main-frame,
+.middle,
+.whole-thing {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-frame {
+  height: 477px;
+  flex-shrink: 0;
+  justify-content: space-between;
+  font-size: var(--default-regular-callout-size);
+  color: var(--system-background-light-primary);
+  font-family: var(--font-inter);
+}
+.whole-thing {
+  justify-content: flex-start;
+  gap: 7px;
+}
+.home-indicator11 {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--label-color-light-primary);
+  width: 134px;
+  height: 5px;
+}
+.main {
+  position: relative;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-darkorange-400);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 10px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 19.338775634765625px 0 24px;
+  gap: 315px;
+  text-align: center;
+  font-size: var(--default-bold-subheadline-size);
+  color: var(--label-color-light-primary);
+  font-family: var(--default-bold-subheadline);
+}

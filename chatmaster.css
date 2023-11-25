@@ -1,0 +1,409 @@
+.ignore-forced-height {
+  position: relative;
+  width: 0;
+  height: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chats,
+.divider {
+  position: absolute;
+}
+.divider {
+  top: 709px;
+  left: 52px;
+  background-color: var(--color-gainsboro-200);
+  width: 350px;
+  height: 1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chats {
+  top: calc(50% - 385px);
+  left: calc(50% - 54px);
+  letter-spacing: -0.24px;
+  display: inline-block;
+  width: 90px;
+  height: 33px;
+}
+.archive-icon1,
+.preferences-icon1 {
+  position: absolute;
+  top: 46px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+.preferences-icon1 {
+  left: 336px;
+}
+.home-indicator3 {
+  position: absolute;
+  bottom: 28px;
+  left: calc(50% - 77px);
+  border-radius: var(--br-81xl);
+  background-color: var(--label-color-light-primary);
+  width: 134px;
+  height: 5px;
+}
+.chat-3-preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+.logan-w-116th,
+.my-dogs-name {
+  position: absolute;
+  top: 38px;
+  left: 80px;
+  letter-spacing: -0.24px;
+  display: inline-block;
+  width: 204px;
+  height: 31px;
+}
+.logan-w-116th {
+  top: 14px;
+  left: 82px;
+  font-family: var(--font-arial);
+  color: var(--label-color-light-primary);
+  width: 251px;
+  height: 22px;
+}
+.chat-3 {
+  position: absolute;
+  top: 614px;
+  left: 20px;
+  width: 333px;
+  height: 72px;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray-200);
+}
+.message-notif {
+  position: absolute;
+  top: 313px;
+  left: 346px;
+  border-radius: 50%;
+  background-color: #468cf7;
+  width: 13px;
+  height: 13px;
+}
+.notch-icon3 {
+  position: absolute;
+  height: calc(100% - 2px);
+  width: calc(100% - 39px);
+  top: 0;
+  right: 20px;
+  bottom: 2px;
+  left: 19px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.right-side-icon6 {
+  position: absolute;
+  top: 17.3px;
+  right: 14.6px;
+  width: 66.7px;
+  height: 11.3px;
+  display: none;
+}
+.div9,
+.left-side3,
+.time5 {
+  position: absolute;
+  width: 54px;
+}
+.div9 {
+  top: 1px;
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  height: 20px;
+}
+.left-side3,
+.time5 {
+  height: 21px;
+}
+.time5 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+}
+.left-side3 {
+  top: 12px;
+  left: 24px;
+  display: none;
+}
+.status-bar-iphone-x-or-newe3 {
+  position: absolute;
+  top: 0;
+  left: 42px;
+  width: 258px;
+  height: 32px;
+  overflow: hidden;
+}
+.div10 {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+}
+.right-side-icon7 {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  width: 66.7px;
+  height: 11.3px;
+}
+.iphone-top3 {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  width: 346.7px;
+  height: 32px;
+  font-size: var(--default-bold-subheadline-size);
+  color: var(--label-color-light-primary);
+  font-family: var(--default-bold-subheadline);
+}
+.icon-box3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkorange-400);
+  width: 370px;
+  height: 96px;
+}
+.chat-icon3,
+.home-outline-icon3 {
+  position: absolute;
+  top: 15px;
+  left: 31px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.home-outline-icon3 {
+  top: 0;
+  left: 0;
+}
+.home-left-fill3,
+.home-right-fill3 {
+  position: absolute;
+  top: 28px;
+  left: 13px;
+  background-color: var(--system-background-light-primary);
+  width: 13px;
+  height: 26px;
+}
+.home-left-fill3 {
+  left: 39px;
+}
+.home-top-fill3 {
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  width: 44px;
+  height: 24px;
+}
+.home-icon3,
+.profile-icon3 {
+  position: absolute;
+  top: 15px;
+  left: 153px;
+  width: 64px;
+  height: 64px;
+}
+.profile-icon3 {
+  top: 17px;
+  left: 275px;
+  object-fit: cover;
+}
+.bottom-panel3,
+.chat-home {
+  position: absolute;
+  top: 725px;
+  left: 11px;
+  width: 370px;
+  height: 96px;
+}
+.chat-home {
+  top: -10px;
+  left: 2px;
+  border-radius: var(--br-26xl);
+  background-color: var(--system-background-light-primary);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 10px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 410px;
+  height: 864px;
+  overflow: hidden;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkorange-100);
+}
+.awaiting-response,
+.matches {
+  position: absolute;
+  top: 95px;
+  left: 3px;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.24px;
+  display: inline-block;
+  color: var(--color-darkorange-300);
+  width: 240px;
+  height: 23px;
+}
+.matches {
+  top: 244px;
+  left: 0;
+  width: 148px;
+}
+.likes-panel-icon {
+  position: absolute;
+  top: 132px;
+  left: 23px;
+  width: 368px;
+  height: 98px;
+  object-fit: cover;
+}
+.divider1 {
+  position: absolute;
+  top: 372px;
+  left: 31px;
+  background-color: var(--color-gainsboro-200);
+  width: 350px;
+  height: 1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.steven-franklin,
+.you-can-pass {
+  position: absolute;
+  top: 38px;
+  left: 80px;
+  letter-spacing: -0.24px;
+  display: inline-block;
+  width: 264px;
+  height: 31px;
+}
+.steven-franklin {
+  top: 14px;
+  left: 82px;
+  font-family: var(--font-arial);
+  color: var(--label-color-light-primary);
+  width: 250px;
+  height: 22px;
+}
+.chat-2,
+.divider2,
+.divider3 {
+  position: absolute;
+  top: 503px;
+  left: 31px;
+  width: 344px;
+  height: 72px;
+}
+.divider2,
+.divider3 {
+  top: 593px;
+  background-color: var(--color-gainsboro-200);
+  width: 350px;
+  height: 1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider3 {
+  top: 705px;
+  left: 32px;
+}
+.are-the-neighbors,
+.emily-e-72nd {
+  position: absolute;
+  top: 38px;
+  left: 80px;
+  letter-spacing: -0.24px;
+  display: inline-block;
+  width: 214px;
+  height: 31px;
+}
+.emily-e-72nd {
+  top: 14px;
+  left: 82px;
+  font-family: var(--font-arial);
+  color: var(--label-color-light-primary);
+  width: 225px;
+  height: 22px;
+}
+.chat-1,
+.divider4 {
+  position: absolute;
+  top: 394px;
+  left: 32px;
+  width: 307px;
+  height: 72px;
+}
+.divider4 {
+  top: 484px;
+  background-color: var(--color-gainsboro-200);
+  width: 350px;
+  height: 1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.adam-6th,
+.sounds-good {
+  position: absolute;
+  top: 38px;
+  left: 80px;
+  letter-spacing: -0.24px;
+  display: inline-block;
+  width: 122px;
+  height: 31px;
+}
+.adam-6th {
+  top: 14px;
+  left: 82px;
+  font-family: var(--font-arial);
+  color: var(--label-color-light-primary);
+  width: 138px;
+  height: 22px;
+}
+.chat-0 {
+  position: absolute;
+  top: 283px;
+  left: 32px;
+  width: 220px;
+  height: 72px;
+}
+.chat-master {
+  position: relative;
+  width: 100%;
+  height: 844px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-inter);
+}
