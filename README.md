@@ -1,8 +1,6 @@
 
   # Lettr Limited
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
-
   To preview and run the project on your device:
   1) Open project folder in your terminal.
   2) In the terminal, run `export FLASK_APP=server` and `export FLASK_ENV=development`. Then, run `flask run`.
