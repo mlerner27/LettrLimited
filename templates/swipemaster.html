@@ -18,6 +18,12 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
     />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/swipemaster.js"></script>
+
+    <script>
+      var data = {{data|tojson}}
+    </script>
   </head>
   <body>
     <div class="final-swipe">
@@ -78,21 +84,30 @@
           </div>
         </div>
         <div class="bottom-panel1"></div>
+        <a href="{{ url_for('chat') }}">
+        <button>
         <img class="chat-icon1" alt="" src="../static/img/chat-icon@2x.png" />
-
+        </button>
+        </a>
+        <a href="{{ url_for('personal') }}">
+        <button>
         <img
           class="profile-button-icon1"
           alt=""
           src="../static/img/profile-icon@2x.png"
         />
-
+        </button>
+        </a>
         <div class="home-icon1">
+          <a href="{{ url_for('swipe') }}">
+          <button>
           <img
             class="home-outline-icon1"
             alt=""
             src="../static/img/home-outline@2x.png"
           />
-
+          </button>
+          </a>
           <div class="home-right-fill1"></div>
           <div class="home-left-fill1"></div>
           <img class="home-top-fill1" alt="" src="../static/img/home-top-fill.svg" />
@@ -142,7 +157,7 @@
               src="../static/img/icons8message96-1-11@2x.png"
             />
           </div>
-        </div>
+        </div> 
         <div class="iphone-top2">
           <div class="status-bar-iphone-x-or-newe3">
             <img class="notch-icon3" alt="" src="../static/img/notch.svg" />

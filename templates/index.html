@@ -31,30 +31,28 @@
     <div class="main">
       <div class="home-indicator"></div>
       <div class="main-content">
-        <div class="button-primary">
+        <a href="{{ url_for('login') }}">
+        <button class="button-primary">
           <div class="button">Log In</div>
-        </div>
-        <div class="button-secondary">
+        </button>
+        </a>
+        <a href="{{ url_for('login') }}">
+        <button class="button-secondary">
           <div class="button">Create account</div>
-        </div>
+        </button>
+       </a>
         <b class="finding-you-a">Finding You A Home</b>
         <b class="lettr">Lettr</b>
       </div>
       <div class="iphone-top">
         <div class="status-bar-iphone-x-or-newe">
-          <img class="notch-icon" alt="" src="../static/img/notch.svg" />
-
-          <img class="right-side-icon" alt="" src="../static/img/right-side.svg" />
-
           <div class="left-side">
             <div class="time">
-              <div class="div">9:41</div>
             </div>
           </div>
         </div>
-        <div class="div1">9:41</div>
-        <img class="right-side-icon1" alt="" src="../static/img/right-side1.svg" />
       </div>
     </div>
+    <script src="../static/js/index.js"></script>
   </body>
 </html>

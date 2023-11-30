@@ -41,15 +41,21 @@
 
         <div class="bottom-panel1">
           <div class="icon-box1"></div>
+          <a href="{{ url_for('chat') }}">
+          <button>
           <img class="chat-icon1" alt="" src="../static/img/chat-icon@2x.png" />
-
+          </button>
+          </a>
           <div class="home-icon1">
+            <a href="{{ url_for('swipe') }}">
+            <button>
             <img
               class="home-outline-icon1"
               alt=""
               src="../static/img/home-outline@2x.png"
             />
-
+            </button>
+            </a>
             <div class="home-right-fill1"></div>
             <div class="home-left-fill1"></div>
             <img
@@ -58,11 +64,15 @@
               src="../static/img/home-top-fill.svg"
             />
           </div>
+          <a href="{{ url_for('personal') }}">
+          <button>
           <img
             class="profile-icon1"
             alt=""
             src="../static/img/profile-icon@2x.png"
           />
+          </button>
+          </a>
         </div>
         <div class="iphone-top5">
           <div class="status-bar-iphone-x-or-newe5">
