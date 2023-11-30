@@ -18,7 +18,7 @@ function renderListingsFull(img, address, neighborhood, apartment_type, date, pr
     var dates_text_wrap = $("<div class='may-31-august-15-wrapper'>")
     var dates_text = $("<div class='may-31-'>")
 
-    var addr_text = $("<b class='name3'>")
+    var addr_text = $("<b class='name2'>")
 
     var neigh_apt_full = $("<div class='location-parent'>")
     var map_pin = $("<div class='location2'>")
