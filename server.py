@@ -2,6 +2,32 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
+data = [
+    {
+        "id": 1,
+        "img": "../static/img/swipe-1-image@2x.png",
+        "address": "6th Ave & 9th St",
+        "neighborhood": "Greenwich Village",
+        "apt-type": "3 Bed, 2 Bath",
+        "dates": "May 31 - August 15",
+        "price": "$2000/month"
+    },
+    {
+        "id": 2,
+        "img": "../static/img/swipe-2-image@2x.png",
+        "address": "Amsterdam & 74th",
+        "neighborhood": "Morningside heights",
+        "apt-type": "Studio",
+        "dates": "June 1 - August 1",
+        "price": "$2000/month"
+    },
+]
+
+archiveListings = []
+
+saveListings = []
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -44,4 +70,4 @@ def personal():
 
 @app.route('/swipe')
 def swipe():
-    return render_template('swipemaster.html')
+    return render_template('swipemaster.html', data=data)
