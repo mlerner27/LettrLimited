@@ -14,10 +14,14 @@
           <p class="text-wrapper">Optionally, include a bio with any other important info.</p>
           <p class="div">You may want to include: living habits, roommates, pets, etc.</p>
           <div class="bio-input"></div>
+          <a href="{{ url_for('personal') }}">
           <img class="back-arrow" src="../static/img/back-arrow.png" />
-          <button class="continue-button">
+        </a>
+          <div class="continue-button">
+            <a href="{{ url_for('prefs') }}">
             <div class="overlap-group"><div class="text-wrapper-2">Continue</div></div>
-          </button>
+          </a>
+          </div>
           <div class="iphone-top">
             <div class="overlap">
               <div class="status-bar-iphone-x">
