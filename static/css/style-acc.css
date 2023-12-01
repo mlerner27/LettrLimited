@@ -1,0 +1,935 @@
+.ACCOUNT-MASTER {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.ACCOUNT-MASTER .ACCOUNT-wrapper {
+  overflow-x: hidden;
+  width: 390px;
+  height: 844px;
+}
+
+.ACCOUNT-MASTER .ACCOUNT {
+  position: relative;
+  width: 410px;
+  height: 864px;
+  top: -10px;
+  left: -10px;
+  background-color: #ffffff;
+  border-radius: 45px;
+  overflow: hidden;
+  border: 10px solid;
+  border-color: #f5f5f5;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.ACCOUNT-MASTER .iphone-top {
+  position: absolute;
+  width: 349px;
+  height: 32px;
+  top: 0;
+  left: 24px;
+}
+
+.ACCOUNT-MASTER .overlap-group {
+  position: relative;
+  width: 347px;
+  height: 32px;
+}
+
+.ACCOUNT-MASTER .status-bar-iphone-x {
+  position: absolute;
+  width: 258px;
+  height: 32px;
+  top: 0;
+  left: 42px;
+}
+
+.ACCOUNT-MASTER .notch {
+  position: relative;
+  width: 219px;
+  height: 30px;
+  top: -2px;
+  left: 19px;
+}
+
+.ACCOUNT-MASTER .img {
+  position: absolute;
+  width: 219px;
+  height: 28px;
+  top: 2px;
+  left: 0;
+}
+
+.ACCOUNT-MASTER .time {
+  position: absolute;
+  width: 54px;
+  top: 12px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .right-side {
+  position: absolute;
+  width: 67px;
+  height: 11px;
+  top: 16px;
+  left: 280px;
+}
+
+.ACCOUNT-MASTER .logo {
+  position: absolute;
+  width: 77px;
+  top: 46px;
+  left: 156px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ff7a00;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .back-arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 39px;
+  left: 12px;
+  object-fit: cover;
+}
+
+.ACCOUNT-MASTER .vector {
+  position: absolute;
+  width: 385px;
+  height: 1px;
+  top: 200px;
+  left: 5px;
+  object-fit: cover;
+}
+
+.ACCOUNT-MASTER .vector-2 {
+  position: absolute;
+  width: 388px;
+  height: 1px;
+  top: 328px;
+  left: 2px;
+  object-fit: cover;
+}
+
+.ACCOUNT-MASTER .vector-3 {
+  position: absolute;
+  width: 390px;
+  height: 1px;
+  top: 458px;
+  left: 0;
+  object-fit: cover;
+}
+
+.ACCOUNT-MASTER .vector-4 {
+  position: absolute;
+  width: 385px;
+  height: 1px;
+  top: 654px;
+  left: 5px;
+  object-fit: cover;
+}
+
+.ACCOUNT-MASTER .roomate-gender {
+  position: absolute;
+  width: 369px;
+  height: 89px;
+  top: 220px;
+  left: 22px;
+}
+
+.ACCOUNT-MASTER .text-wrapper {
+  position: absolute;
+  width: 367px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.ACCOUNT-MASTER .roommate-gender {
+  position: absolute;
+  width: 139px;
+  height: 43px;
+  top: 46px;
+  left: 30px;
+}
+
+.ACCOUNT-MASTER .div {
+  position: relative;
+  width: 137px;
+  height: 43px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #d8dadc;
+}
+
+.ACCOUNT-MASTER .overlap {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  top: 0;
+  left: 94px;
+  background-color: #c9c9c9;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #d8dadc;
+}
+
+.ACCOUNT-MASTER .image {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 9px;
+  left: 8px;
+}
+
+.ACCOUNT-MASTER .text-wrapper-2 {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.ACCOUNT-MASTER .bedrooms {
+  position: absolute;
+  width: 402px;
+  height: 88px;
+  top: 92px;
+  left: 6px;
+}
+
+.ACCOUNT-MASTER .text-wrapper-3 {
+  position: absolute;
+  width: 400px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.ACCOUNT-MASTER .overlap-group-wrapper {
+  position: absolute;
+  width: 320px;
+  height: 43px;
+  top: 45px;
+  left: 46px;
+}
+
+.ACCOUNT-MASTER .overlap-group-2 {
+  position: relative;
+  width: 308px;
+  height: 43px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #d8dadc;
+}
+
+.ACCOUNT-MASTER .text-wrapper-4 {
+  position: absolute;
+  top: 6px;
+  left: 17px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.ACCOUNT-MASTER .text-wrapper-5 {
+  position: absolute;
+  top: 7px;
+  left: 141px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.ACCOUNT-MASTER .text-wrapper-6 {
+  left: 179px;
+  font-weight: 400;
+  position: absolute;
+  top: 7px;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.ACCOUNT-MASTER .text-wrapper-7 {
+  left: 221px;
+  font-weight: 400;
+  position: absolute;
+  top: 7px;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.ACCOUNT-MASTER .text-wrapper-8 {
+  position: absolute;
+  top: 7px;
+  left: 262px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.ACCOUNT-MASTER .text-wrapper-9 {
+  left: 103px;
+  font-weight: 700;
+  position: absolute;
+  top: 7px;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.ACCOUNT-MASTER .vector-5 {
+  position: absolute;
+  width: 1px;
+  height: 34px;
+  top: 4px;
+  left: 90px;
+}
+
+.ACCOUNT-MASTER .vector-6 {
+  position: absolute;
+  width: 1px;
+  height: 34px;
+  top: 4px;
+  left: 128px;
+}
+
+.ACCOUNT-MASTER .vector-7 {
+  position: absolute;
+  width: 1px;
+  height: 34px;
+  top: 4px;
+  left: 166px;
+}
+
+.ACCOUNT-MASTER .vector-8 {
+  position: absolute;
+  width: 1px;
+  height: 34px;
+  top: 4px;
+  left: 208px;
+}
+
+.ACCOUNT-MASTER .vector-9 {
+  position: absolute;
+  width: 1px;
+  height: 34px;
+  top: 4px;
+  left: 250px;
+}
+
+.ACCOUNT-MASTER .overlap-2 {
+  position: absolute;
+  width: 389px;
+  height: 89px;
+  top: 349px;
+  left: 9px;
+}
+
+.ACCOUNT-MASTER .price-range {
+  width: 389px;
+  height: 89px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.ACCOUNT-MASTER .text-wrapper-10 {
+  position: absolute;
+  width: 387px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.ACCOUNT-MASTER .overlap-3 {
+  position: absolute;
+  width: 352px;
+  height: 49px;
+  top: 40px;
+  left: 26px;
+}
+
+.ACCOUNT-MASTER .price {
+  position: absolute;
+  width: 352px;
+  height: 49px;
+  top: 0;
+  left: 0;
+}
+
+.ACCOUNT-MASTER .overlap-group-3 {
+  position: absolute;
+  width: 298px;
+  height: 19px;
+  top: 0;
+  left: 23px;
+}
+
+.ACCOUNT-MASTER .price-slider-line {
+  position: absolute;
+  width: 298px;
+  height: 4px;
+  top: 8px;
+  left: 0;
+}
+
+.ACCOUNT-MASTER .slider {
+  left: 69px;
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 0;
+  background-color: #000000;
+  border-radius: 9.5px;
+}
+
+.ACCOUNT-MASTER .text-wrapper-11 {
+  top: 25px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+}
+
+.ACCOUNT-MASTER .text-wrapper-12 {
+  position: absolute;
+  top: 25px;
+  left: 291px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .slider-2 {
+  left: 234px;
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 0;
+  background-color: #000000;
+  border-radius: 9.5px;
+}
+
+.ACCOUNT-MASTER .text-wrapper-13 {
+  position: absolute;
+  width: 57px;
+  top: 59px;
+  left: 99px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .text-wrapper-14 {
+  position: absolute;
+  width: 57px;
+  top: 59px;
+  left: 241px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .neighbourhood {
+  position: absolute;
+  width: 399px;
+  height: 53px;
+  top: 661px;
+  left: -3px;
+}
+
+.ACCOUNT-MASTER .overlap-4 {
+  position: relative;
+  width: 395px;
+  height: 53px;
+}
+
+.ACCOUNT-MASTER .text-wrapper-15 {
+  position: absolute;
+  width: 395px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.ACCOUNT-MASTER .click-here-to-view {
+  position: absolute;
+  top: 29px;
+  left: 40px;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .span {
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.24px;
+}
+
+.ACCOUNT-MASTER .text-wrapper-16 {
+  font-weight: 700;
+}
+
+.ACCOUNT-MASTER .general-preferences {
+  position: absolute;
+  width: 398px;
+  height: 156px;
+  top: 482px;
+  left: -10px;
+}
+
+.ACCOUNT-MASTER .overlap-5 {
+  position: absolute;
+  width: 385px;
+  height: 111px;
+  top: 45px;
+  left: 17px;
+}
+
+.ACCOUNT-MASTER .general-preferences-2 {
+  width: 202px;
+  height: 82px;
+  left: 183px;
+  position: absolute;
+  top: 0;
+}
+
+.ACCOUNT-MASTER .text-wrapper-17 {
+  position: absolute;
+  top: 0;
+  left: 21px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .text-wrapper-18 {
+  position: absolute;
+  top: 29px;
+  left: 21px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .text-wrapper-19 {
+  position: absolute;
+  top: 58px;
+  left: 21px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .overlap-6 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 1px;
+  left: 0;
+}
+
+.ACCOUNT-MASTER .rectangle {
+  top: 4px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ACCOUNT-MASTER .vector-10 {
+  position: absolute;
+  width: 16px;
+  height: 17px;
+  top: 0;
+  left: 2px;
+}
+
+.ACCOUNT-MASTER .overlap-group-4 {
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  top: 29px;
+  left: 0;
+}
+
+.ACCOUNT-MASTER .rectangle-2 {
+  top: 5px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ACCOUNT-MASTER .rectangle-3 {
+  top: 63px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ACCOUNT-MASTER .overlap-wrapper {
+  width: 291px;
+  height: 111px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.ACCOUNT-MASTER .overlap-7 {
+  position: relative;
+  width: 299px;
+  height: 111px;
+}
+
+.ACCOUNT-MASTER .general-preferences-3 {
+  position: absolute;
+  width: 299px;
+  height: 111px;
+  top: 0;
+  left: 0;
+}
+
+.ACCOUNT-MASTER .text-wrapper-20 {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .text-wrapper-21 {
+  position: absolute;
+  top: 29px;
+  left: 26px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .text-wrapper-22 {
+  position: absolute;
+  top: 58px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .element-walk-to-subway {
+  position: absolute;
+  top: 87px;
+  left: 16px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ACCOUNT-MASTER .rectangle-4 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 5px;
+  left: 1px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ACCOUNT-MASTER .rectangle-5 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 34px;
+  left: 1px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ACCOUNT-MASTER .rectangle-6 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 63px;
+  left: 1px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ACCOUNT-MASTER .rectangle-7 {
+  top: 92px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.ACCOUNT-MASTER .vector-11 {
+  position: absolute;
+  width: 16px;
+  height: 17px;
+  top: 29px;
+  left: 4px;
+}
+
+.ACCOUNT-MASTER .vector-12 {
+  position: absolute;
+  width: 16px;
+  height: 17px;
+  top: 87px;
+  left: 4px;
+}
+
+.ACCOUNT-MASTER .iphone-bottom {
+  position: absolute;
+  width: 454px;
+  height: 147px;
+  top: 720px;
+  left: -37px;
+}
+
+.ACCOUNT-MASTER .overlap-8 {
+  position: relative;
+  height: 147px;
+  border-radius: 20px;
+}
+
+.ACCOUNT-MASTER .bottom-panel-updated {
+  position: absolute;
+  width: 454px;
+  height: 147px;
+  top: 0;
+  left: 0;
+  background-color: #ffa654;
+  border-radius: 20px;
+}
+
+.ACCOUNT-MASTER .chat-icon {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 15px;
+  left: 79px;
+  object-fit: cover;
+}
+
+.ACCOUNT-MASTER .profile-button {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 17px;
+  left: 323px;
+  object-fit: cover;
+}
+
+.ACCOUNT-MASTER .home-icon {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 15px;
+  left: 204px;
+  background-image: url(./img/home-outline.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.ACCOUNT-MASTER .overlap-group-5 {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  top: 10px;
+  left: 11px;
+}
+
+.ACCOUNT-MASTER .home-right-fill {
+  position: absolute;
+  width: 13px;
+  height: 26px;
+  top: 18px;
+  left: 2px;
+  background-color: #ffffff;
+}
+
+.ACCOUNT-MASTER .home-left-fill {
+  position: absolute;
+  width: 13px;
+  height: 26px;
+  top: 18px;
+  left: 28px;
+  background-color: #ffffff;
+}
+
+.ACCOUNT-MASTER .home-top-fill {
+  position: absolute;
+  width: 44px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.ACCOUNT-MASTER .home-indicator {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  top: 107px;
+  left: 166px;
+  background-color: #000000;
+  border-radius: 100px;
+}

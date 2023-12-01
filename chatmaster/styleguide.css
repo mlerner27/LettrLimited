@@ -1,0 +1,19 @@
+:root {
+  --nk-newskitinterfaceinterface050: rgba(171, 171, 171, 1);
+  --label-colorlightprimary: rgba(0, 0, 0, 1);
+  --label-colordarkprimary: rgba(255, 255, 255, 1);
+  --defaultsystemorangelight: rgba(255, 149, 0, 1);
+  --defaultsystemgreenlight: rgba(52, 199, 89, 1);
+  --defaultsystemorangedark: rgba(255, 159, 10, 1);
+  --defaultsystemgreendark: rgba(50, 215, 75, 1);
+  --defaultsystembluelight: rgba(0, 122, 255, 1);
+  --defaultsystembluedark: rgba(10, 132, 255, 1);
+  --defaultsystemredlight: rgba(255, 59, 48, 1);
+  --defaultsystemreddark: rgba(255, 69, 58, 1);
+  --default-bold-subheadline-font-family: "SFPro Text-Semibold", Helvetica;
+  --default-bold-subheadline-font-weight: 400;
+  --default-bold-subheadline-font-size: 15px;
+  --default-bold-subheadline-letter-spacing: -0.5px;
+  --default-bold-subheadline-line-height: 20px;
+  --default-bold-subheadline-font-style: normal;
+}
