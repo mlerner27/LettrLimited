@@ -21,10 +21,14 @@
             </div>
             <div class="gender"><div class="text-wrapper">Your gender</div></div>
             <div class="age"><div class="text-wrapper-2">Your age</div></div>
+            <a href="{{ url_for('swipe') }}">
             <img class="back-arrow" src="../static/img/back-arrow.png" />
-            <button class="continue-button">
+          </a>
+            <div class="continue-button">
+              <a href="{{ url_for('bio') }}">
               <div class="div-wrapper"><div class="text-wrapper-3">Continue</div></div>
-            </button>
+            </a>
+            </div>
             <div class="iphone-top">
               <div class="overlap-2">
                 <div class="status-bar-iphone-x">
