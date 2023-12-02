@@ -18,6 +18,13 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
     />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/archivemaster.js') }}"></script>
+    <script src="../static/js/archivemaster.js"></script>
+
+    <script>
+      var data = {{data|tojson}}
+    </script>
 
   </head>
   <body>
@@ -46,8 +53,8 @@
         <img class="bookmark-icon" alt="" src="../static/img/back-arrow@2x.png" />
       </a>
 
-        <div class="swipe-2-mas">
-          <img
+      <div class="swipe-2-mas">
+           <!-- <img
             class="swipe-2-image"
             alt=""
             src="../static/img/saved-1-image@2x.png"
@@ -79,8 +86,8 @@
               alt=""
               src="../static/img/icons8message96-1-1@2x.png"
             />
-          </div>
-        </div>
+          </div> -->
+        </div>  
         <div class="bottom-panel1"></div>
         <a href="{{ url_for('chat') }}">
         <button>
@@ -98,21 +105,20 @@
         </a>
         <div class="home-icon1">
           <a href="{{ url_for('swipe') }}">
-          <button>
-          <img
-            class="home-outline-icon1"
-            alt=""
-            src="../static/img/home-outline@2x.png"
-          />
-          </button>
-          </a>
+            <img
+              class="home-outline-icon1"
+              alt=""
+              src="../static/img/home-outline@2x.png"
+            />
+          
           <div class="home-right-fill1"></div>
           <div class="home-left-fill1"></div>
           <img class="home-top-fill1" alt="" src="../static/img/home-top-fill.svg" />
+          </a>
         </div>
         <div class="home-indicator2"></div>
         <div class="swipe-3-mas">
-          <img
+          <!-- <img
             class="swipe-2-image"
             alt=""
             src="../static/img/saved-2-image@2x.png"
@@ -154,7 +160,7 @@
               alt=""
               src="../static/img/icons8message96-1-11@2x.png"
             />
-          </div>
+          </div> -->
         </div> 
         <div class="iphone-top2">
           <div class="status-bar-iphone-x-or-newe3">

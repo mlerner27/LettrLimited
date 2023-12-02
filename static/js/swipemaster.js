@@ -30,7 +30,8 @@ function renderListingsFull(L_id, img, address, neighborhood, apartment_type, da
     var price_text = $("<div class='may-31-'>")
 
     var archive_full = $("<div class='ellipse-parent3'>")
-    var archive_warpper = $("<div class='group-child3'>")
+    var archive_button = $("<button class='archive_button_swipe' value = '" + L_id + "'>")
+    var archive_wrapper = $("<div class='group-child3'>")
     var archive_icon = $("<img class='icons8-bookmark-96-3-11' src='../static/img/icons8bookmark96-3-11@2x.png'>")
 
     var saved_full = $("<div class='ellipse-parent4'>")
@@ -61,8 +62,9 @@ function renderListingsFull(L_id, img, address, neighborhood, apartment_type, da
     $(price_full).append(price_wrapper)
     $(".swipe-3-mas").append(price_full)
 
-    $(archive_warpper).append(archive_icon)
-    $(archive_full).append(archive_warpper)
+    $(archive_wrapper).append(archive_icon)
+    $(archive_button).append(archive_wrapper)
+    $(archive_full).append(archive_button)
     $(".swipe-3-mas").append(archive_full)
 
     $(saved_wrapper).append(saved_icon)
@@ -73,17 +75,19 @@ function renderListingsFull(L_id, img, address, neighborhood, apartment_type, da
 
 }
 
-function saveListings(id, data) {
+function saveListings(id, data, page) {
     $.each(data, function(i, datum){
         if (id = datum["id"]) {
             var dataToSave = {
                 "id": datum["id"],
                 "img": datum["img"],
+                "name": datum["name"],
                 "address": datum["address"],
                 "neighborhood": datum["neighborhood"],
                 "apt-type": datum["apt-type"],
                 "dates": datum["dates"],
                 "price": datum["price"],
+                "page_on": page
             }
 
             $.ajax({
@@ -110,17 +114,54 @@ function saveListings(id, data) {
     })
 }
 
-function archiveListings() {
-    alert("ARCHIVE")
+function archiveListings(id, data, page) {
+    $.each(data, function(i, datum){
+        if (id = datum["id"]) {
+            var dataToSave = {
+                "id": datum["id"],
+                "img": datum["img"],
+                "name": datum["name"],
+                "address": datum["address"],
+                "neighborhood": datum["neighborhood"],
+                "apt-type": datum["apt-type"],
+                "dates": datum["dates"],
+                "price": datum["price"]
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "archive_listing",
+                dataType : "json",
+                contentType: "application/json; charset=utf-8",
+                data : JSON.stringify(dataToSave),
+                success: function(result) {
+                    var allData = result["data"]
+                    data = allData
+                    renderListings(data)
+                },
+                error: function(request, status, error) {
+                    console.log("Error");
+                    console.log(request)
+                    console.log(status)
+                    console.log(error)
+                }
+            });
+        }
+
+
+    })
 }
 
 $(document).ready(function(){
     renderListings(data)
+    
     $(".save_button_swipe").click(function(){
-        var L_id = $(".save_button").val()
-        saveListings(L_id, data)
+        var L_id = $(".save_button_swipe").val()
+        saveListings(L_id, data, "swipe")
     })
-    $("#archive-button").click(function(){
-        archiveListings()
+
+    $(".archive_button_swipe").click(function(){
+        var L_id = $(".archive_button_swipe").val()
+        archiveListings(L_id, data)
     })
 })

@@ -4,6 +4,13 @@
     <link rel="stylesheet" href="../static/css/globals-chat.css" />
     <link rel="stylesheet" href="../static/css/styleguide-chat.css" />
     <link rel="stylesheet" href="../static/css/style-chat.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/chatmaster.js') }}"></script>
+    <script src="../static/js/chatmaster.js"></script>
+
+    <script>
+      var data = {{data|tojson}}
+    </script>
   </head>
   <body>
     <div class="CHAT-MASTER">
@@ -16,13 +23,14 @@
             <div class="chat">
               <div class="overlap-group">
                 <div class="div">
-                  <img class="chat-preview" src="../static/img/chat-3-preview.png" />
+                  <!-- <img class="chat-preview" src="../static/img/chat-3-preview.png" />
                   <p class="logan-w">Logan: W 116th &amp; Amsterdam</p>
+                  <p class="p">My dog’s name is Liam!</p> -->
                 </div>
-                <p class="p">My dog’s name is Liam!</p>
+                
               </div>
             </div>
-            <div class="message-notif"></div>
+            <!-- <div class="message-notif"></div> the new message icon -->
             <div class="iphone-top">
               <div class="overlap-2">
                 <div class="status-bar-iphone-x">
@@ -60,36 +68,38 @@
               </a>
               </div>
             </div>
+            <a href="{{ url_for('archive') }}">
             <img class="bookmark" src="../static/img/bookmark.png" />
+            </a>
           </div>
           <div class="text-wrapper-3">Awaiting Response</div>
           <div class="text-wrapper-4">Matches</div>
           <div class="likes-panel">
-            <img class="like-preview" src="../static/img/like-2-preview.png" />
+            <!-- <img class="like-preview" src="../static/img/like-2-preview.png" />
             <img class="like-preview-2" src="../static/img/like-3-preview.png" />
             <img class="like-preview-3" src="../static/img/like-4-preview.png" />
-            <img class="like-preview-4" src="../static/img/like-1-preview.png" />
+            <img class="like-preview-4" src="../static/img/like-1-preview.png" /> -->
           </div>
           <div class="ignore-forced-height-wrapper"><div class="ignore-forced-height"></div></div>
           <div class="chat-2">
-            <img class="chat-preview" src="../static/img/chat-2-preview.png" />
+            <!-- <img class="chat-preview" src="../static/img/chat-2-preview.png" />
             <p class="text-wrapper-5">You can pass by anytime bet..</p>
-            <div class="steven-franklin">Steven: Franklin &amp; Broadway</div>
+            <div class="name-addr">Steven: Franklin &amp; Broadway</div> -->
           </div>
           <div class="div-wrapper"><div class="ignore-forced-height"></div></div>
           <div class="divider-2"><div class="ignore-forced-height"></div></div>
           <div class="chat-3">
-            <img class="chat-preview" src="../static/img/chat-1-preview.png" />
+            <!-- <img class="chat-preview" src="../static/img/chat-1-preview.png" />
             <div class="text-wrapper-6">Are the neighbors loud?</div>
-            <p class="emily-e">Emily: E 72nd &amp; Lexington</p>
+            <p class="emily-e">Emily: E 72nd &amp; Lexington</p> -->
           </div>
           <div class="divider-3"><div class="ignore-forced-height"></div></div>
           <div class="overlap-group-wrapper">
             <div class="overlap-4">
-              <div class="text-wrapper-7">Sounds good!</div>
               <div class="overlap-5">
+                <!-- <div class="text-wrapper-7">Sounds good!</div>
                 <div class="adam">Adam: 6th &amp; 9th</div>
-                <img class="chat-preview" src="../static/img/chat-0-preview.png" />
+                <img class="chat-preview" src="../static/img/chat-0-preview.png" /> -->
               </div>
             </div>
           </div>
