@@ -103,12 +103,10 @@
 
 .BIO-MASTER .continue-button {
   position: absolute;
-  width: 337px;
+  width: 335px;
   height: 46px;
   top: 754px;
   left: 28px;
-  all: unset;
-  box-sizing: border-box;
 }
 
 .BIO-MASTER .overlap-group {
