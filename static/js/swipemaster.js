@@ -3,11 +3,11 @@ function renderListings(data) {
 
     //insert all the new data
     $.each(data, function(i, datum){
-        renderListingsFull(datum["img"], datum["address"], datum["neighborhood"], datum["apt-type"], datum["dates"], datum["price"])
+        renderListingsFull(datum["id"], datum["img"], datum["address"], datum["neighborhood"], datum["apt-type"], datum["dates"], datum["price"])
     })
 }
 
-function renderListingsFull(img, address, neighborhood, apartment_type, date, prices) {
+function renderListingsFull(L_id, img, address, neighborhood, apartment_type, date, prices) {
      
     var listing = $("<div class='swipe-3-mas'>")
 
@@ -34,6 +34,7 @@ function renderListingsFull(img, address, neighborhood, apartment_type, date, pr
     var archive_icon = $("<img class='icons8-bookmark-96-3-11' src='../static/img/icons8bookmark96-3-11@2x.png'>")
 
     var saved_full = $("<div class='ellipse-parent4'>")
+    var saved_button = $("<button class='save_button_swipe' value = '" + L_id + "'>")
     var saved_wrapper = $("<div class='group-child3'>")
     var saved_icon = $("<img class='icons8-message-96-1-13' src='../static/img/icons8message96-1-11@2x.png'>")
 
@@ -65,24 +66,59 @@ function renderListingsFull(img, address, neighborhood, apartment_type, date, pr
     $(".swipe-3-mas").append(archive_full)
 
     $(saved_wrapper).append(saved_icon)
-    $(saved_full).append(saved_wrapper)
+    $(saved_button).append(saved_wrapper)
+    $(saved_full).append(saved_button)
     $(".swipe-3-mas").append(saved_full)
 
 
 }
 
-function saveListing() {
+function saveListings(id, data) {
+    $.each(data, function(i, datum){
+        if (id = datum["id"]) {
+            var dataToSave = {
+                "id": datum["id"],
+                "img": datum["img"],
+                "address": datum["address"],
+                "neighborhood": datum["neighborhood"],
+                "apt-type": datum["apt-type"],
+                "dates": datum["dates"],
+                "price": datum["price"],
+            }
 
+            $.ajax({
+                type: "POST",
+                url: "save_listing",
+                dataType : "json",
+                contentType: "application/json; charset=utf-8",
+                data : JSON.stringify(dataToSave),
+                success: function(result) {
+                    var allData = result["data"]
+                    data = allData
+                    renderListings(data)
+                },
+                error: function(request, status, error) {
+                    console.log("Error");
+                    console.log(request)
+                    console.log(status)
+                    console.log(error)
+                }
+            });
+        }
+
+
+    })
 }
 
-function archiveListing() {
-
+function archiveListings() {
+    alert("ARCHIVE")
 }
 
 $(document).ready(function(){
     renderListings(data)
-    $("#save-button").click(function(){
-        saveListings()
+    $(".save_button_swipe").click(function(){
+        var L_id = $(".save_button").val()
+        saveListings(L_id, data)
     })
     $("#archive-button").click(function(){
         archiveListings()

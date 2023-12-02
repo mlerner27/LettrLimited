@@ -1,7 +1,7 @@
 from flask import Flask, render_template
+from flask import Response, request, jsonify
 
 app = Flask(__name__)
-
 
 data = [
     {
@@ -13,6 +13,10 @@ data = [
         "dates": "May 31 - August 15",
         "price": "$2000/month"
     },
+]
+
+current_id = 2
+swipeListings = [
     {
         "id": 2,
         "img": "../static/img/swipe-2-image@2x.png",
@@ -24,9 +28,9 @@ data = [
     },
 ]
 
-archiveListings = []
+archiveListingsList = []
 
-saveListings = []
+saveListingsList = []
 
 @app.route('/')
 def index():
@@ -70,4 +74,36 @@ def personal():
 
 @app.route('/swipe')
 def swipe():
-    return render_template('swipemaster.html', data=data)
+    return render_template('swipemaster.html', data=swipeListings)
+
+@app.route('/save_listing', methods=['GET', 'POST'])
+def save_listing():
+    global data
+    global current_id
+
+    json_data = request.get_json()
+    id = json_data["id"]
+    img = json_data["img"]
+    address = json_data["address"]
+    neighborhood = json_data["neighborhood"]
+    apt_type = json_data["apt-type"]
+    dates = json_data["dates"]
+    price = json_data["price"]
+
+    new_saved_listing = {
+        "id": id,
+        "img": img,
+        "address": address,
+        "neighborhood": neighborhood,
+        "apt-type": apt_type,
+        "dates": dates,
+        "price": price
+    }
+    saveListingsList.append(new_saved_listing)
+
+    for i in range(len(swipeListings)):
+        if swipeListings[i]['id'] == id:
+            del swipeListings[i]
+            break
+
+    return jsonify(data = swipeListings)
