@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="../static/css/global.css" />
+    <link rel="stylesheet" href="../static/css/final-swipe.css" />
     <link rel="stylesheet" href="../static/css/global-acc.css" />
     <link rel="stylesheet" href="../static/css/styleguide-acc.css" />
     <link rel="stylesheet" href="../static/css/style-acc.css" />
@@ -116,35 +118,30 @@
             </div>
             <div class="text-wrapper-10">General preferences:</div>
           </div>
-          <div class="iphone-bottom">
-            <div class="overlap-8">
-              <div class="bottom-panel-updated">
-                <a href="{{ url_for('chat') }}">
-                <button>
-                <img class="chat-icon" src="../static/img/chat-icon.png" />
-                </button>
-                </a>
-                <a href="{{ url_for('personal') }}">
-                <button>
-                <img class="profile-button" src="../static/img/profile-button.png" />
-                </button>
-                </a>
-                <a href="{{ url_for('swipe') }}">
-                  <button>
-                <div class="home-icon">
-                  <div class="overlap-group-5">
-                    <div class="home-right-fill"></div>
-                    <div class="home-left-fill"></div>
-                    <img class="home-top-fill" src="../static/img/home-top-fill.svg" />
-                  </div>
-                </div>
-              </div>
-              <div class="home-indicator"></div>
-              </button>
-              </a>
-              </div>
-            </div>
+          <div class="bottom-panel1"></div>
+          <a href="{{ url_for('chat') }}">
+          <img class="chat-icon1" alt="" src="../static/img/chat-icon@2x.png" />
+          </a>
+          <a href="{{ url_for('personal') }}">
+          <img
+            class="profile-button-icon1"
+            alt=""
+            src="../static/img/profile-icon@2x.png"
+          />
+          </a>
+          <div class="home-icon1">
+            <a href="{{ url_for('swipe') }}">
+            <img
+              class="home-outline-icon1"
+              alt=""
+              src="../static/img/home-outline@2x.png"
+            />
+            </a>
+            <div class="home-right-fill1"></div>
+            <div class="home-left-fill1"></div>
+            <img class="home-top-fill1" alt="" src="../static/img/home-top-fill.svg" />
           </div>
+          <div class="home-indicator2"></div>
         </div>
       </div>
     </div>
