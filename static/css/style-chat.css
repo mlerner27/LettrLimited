@@ -1,0 +1,556 @@
+.CHAT-MASTER {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.CHAT-MASTER .overlap-wrapper {
+  overflow-x: hidden;
+  width: 402px;
+  height: 844px;
+}
+
+.CHAT-MASTER .overlap {
+  position: relative;
+  width: 412px;
+  height: 864px;
+  top: -10px;
+}
+
+.CHAT-MASTER .divider {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 1px;
+  align-items: flex-start;
+  position: absolute;
+  top: 719px;
+  left: 52px;
+  background-color: #d9d9d9;
+}
+
+.CHAT-MASTER .ignore-forced-height {
+  position: relative;
+  width: 1px;
+  height: 1px;
+}
+
+.CHAT-MASTER .CHAT-HOME {
+  position: absolute;
+  width: 410px;
+  height: 864px;
+  top: 0;
+  left: 2px;
+  background-color: #ffffff;
+  border-radius: 45px;
+  overflow: hidden;
+  border: 10px solid;
+  border-color: #f5f5f5;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.CHAT-MASTER .text-wrapper {
+  position: absolute;
+  width: 90px;
+  top: 47px;
+  left: 151px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ff7a00;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.CHAT-MASTER .preferences-icon {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 46px;
+  left: 336px;
+  object-fit: cover;
+}
+
+.CHAT-MASTER .chat {
+  position: absolute;
+  width: 360px;
+  height: 72px;
+  top: 614px;
+  left: 20px;
+}
+
+.CHAT-MASTER .overlap-group {
+  position: relative;
+  width: 356px;
+  height: 72px;
+}
+
+.CHAT-MASTER .div {
+  position: absolute;
+  width: 356px;
+  height: 72px;
+  top: 0;
+  left: 0;
+}
+
+.CHAT-MASTER .chat-preview {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.CHAT-MASTER .logan-w {
+  position: absolute;
+  width: 300px;
+  top: 14px;
+  left: 56px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.CHAT-MASTER .p {
+  position: absolute;
+  width: 204px;
+  top: 38px;
+  left: 80px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #a5a2a2b2;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.CHAT-MASTER .message-notif {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 313px;
+  left: 346px;
+  background-color: #468cf7;
+  border-radius: 6.5px;
+}
+
+.CHAT-MASTER .iphone-top {
+  position: absolute;
+  width: 349px;
+  height: 32px;
+  top: 0;
+  left: 22px;
+}
+
+.CHAT-MASTER .overlap-2 {
+  position: relative;
+  width: 347px;
+  height: 32px;
+}
+
+.CHAT-MASTER .status-bar-iphone-x {
+  position: absolute;
+  width: 258px;
+  height: 32px;
+  top: 0;
+  left: 42px;
+}
+
+.CHAT-MASTER .notch {
+  position: relative;
+  width: 219px;
+  height: 30px;
+  top: -2px;
+  left: 19px;
+}
+
+.CHAT-MASTER .img {
+  position: absolute;
+  width: 219px;
+  height: 28px;
+  top: 2px;
+  left: 0;
+}
+
+.CHAT-MASTER .text-wrapper-2 {
+  position: absolute;
+  width: 54px;
+  top: 12px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.CHAT-MASTER .right-side {
+  position: absolute;
+  width: 67px;
+  height: 11px;
+  top: 16px;
+  left: 280px;
+}
+
+.CHAT-MASTER .iphone-bottom {
+  position: absolute;
+  width: 454px;
+  height: 147px;
+  top: 724px;
+  left: -38px;
+}
+
+.CHAT-MASTER .overlap-3 {
+  position: relative;
+  height: 147px;
+  border-radius: 20px;
+}
+
+.CHAT-MASTER .bottom-panel-updated {
+  position: absolute;
+  width: 454px;
+  height: 147px;
+  top: 0;
+  left: 0;
+  background-color: #ffa654;
+  border-radius: 20px;
+}
+
+.CHAT-MASTER .chat-icon {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 15px;
+  left: 79px;
+  object-fit: cover;
+}
+
+.CHAT-MASTER .profile-button {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 17px;
+  left: 323px;
+  object-fit: cover;
+}
+
+.CHAT-MASTER .home-icon {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 15px;
+  left: 204px;
+  background-image: url(./img/home-outline.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.CHAT-MASTER .overlap-group-2 {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  top: 10px;
+  left: 11px;
+}
+
+.CHAT-MASTER .home-right-fill {
+  position: absolute;
+  width: 13px;
+  height: 26px;
+  top: 18px;
+  left: 2px;
+  background-color: #ffffff;
+}
+
+.CHAT-MASTER .home-left-fill {
+  position: absolute;
+  width: 13px;
+  height: 26px;
+  top: 18px;
+  left: 28px;
+  background-color: #ffffff;
+}
+
+.CHAT-MASTER .home-top-fill {
+  position: absolute;
+  width: 44px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.CHAT-MASTER .home-indicator {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  top: 107px;
+  left: 166px;
+  background-color: #000000;
+  border-radius: 100px;
+}
+
+.CHAT-MASTER .bookmark {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 46px;
+  left: 15px;
+  object-fit: cover;
+}
+
+.CHAT-MASTER .text-wrapper-3 {
+  position: absolute;
+  width: 240px;
+  top: 104px;
+  left: 3px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ff6f19ab;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.CHAT-MASTER .text-wrapper-4 {
+  position: absolute;
+  width: 148px;
+  top: 253px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ff6f19ab;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.CHAT-MASTER .likes-panel {
+  position: absolute;
+  width: 368px;
+  height: 98px;
+  top: 142px;
+  left: 23px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.CHAT-MASTER .like-preview {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  top: 13px;
+  left: 102px;
+}
+
+.CHAT-MASTER .like-preview-2 {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  top: 13px;
+  left: 194px;
+}
+
+.CHAT-MASTER .like-preview-3 {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  top: 13px;
+  left: 286px;
+}
+
+.CHAT-MASTER .like-preview-4 {
+  position: absolute;
+  width: 73px;
+  height: 71px;
+  top: 14px;
+  left: 9px;
+  object-fit: cover;
+  border-radius: 50%
+}
+
+.CHAT-MASTER .ignore-forced-height-wrapper {
+  top: 382px;
+  left: 31px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 1px;
+  align-items: flex-start;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.CHAT-MASTER .chat-2 {
+  position: absolute;
+  width: 348px;
+  height: 72px;
+  top: 293px;
+  left: 31px;
+}
+
+.CHAT-MASTER .text-wrapper-5 {
+  position: absolute;
+  width: 264px;
+  top: 38px;
+  left: 80px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #a5a2a2b2;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.CHAT-MASTER .name-addr {
+  position: absolute;
+  width: 250px;
+  top: 14px;
+  left: 80px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.CHAT-MASTER .div-wrapper {
+  top: 603px;
+  left: 31px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 1px;
+  align-items: flex-start;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.CHAT-MASTER .divider-2 {
+  top: 715px;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 1px;
+  align-items: flex-start;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.CHAT-MASTER .chat-3 {
+  position: absolute;
+  width: 309px;
+  height: 72px;
+  top: 404px;
+  left: 32px;
+}
+
+.CHAT-MASTER .text-wrapper-6 {
+  position: absolute;
+  width: 214px;
+  top: 38px;
+  left: 80px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #a5a2a2b2;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.CHAT-MASTER .emily-e {
+  position: absolute;
+  width: 225px;
+  top: 14px;
+  left: 80px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.CHAT-MASTER .divider-3 {
+  top: 494px;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 1px;
+  align-items: flex-start;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.CHAT-MASTER .overlap-group-wrapper {
+  position: absolute;
+  width: 262px;
+  height: 72px;
+  top: 513px;
+  left: 32px;
+}
+
+.CHAT-MASTER .overlap-4 {
+  position: relative;
+  width: 258px;
+  height: 72px;
+}
+
+.CHAT-MASTER .text-wrapper-7 {
+  position: absolute;
+  width: 122px;
+  top: 38px;
+  left: 80px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #a5a2a2b2;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.CHAT-MASTER .overlap-5 {
+  position: absolute;
+  width: 258px;
+  height: 72px;
+  top: 0;
+  left: 0;
+}
+
+.CHAT-MASTER .adam {
+  position: absolute;
+  width: 213px;
+  top: 14px;
+  left: 45px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}

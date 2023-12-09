@@ -1,0 +1,239 @@
+.MAP-MASTER {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.MAP-MASTER .MAP-wrapper {
+  overflow-x: hidden;
+  width: 390px;
+  height: 844px;
+}
+
+.MAP-MASTER .MAP {
+  position: relative;
+  width: 410px;
+  height: 864px;
+  top: -10px;
+  left: -10px;
+  background-color: #ffffff;
+  border-radius: 45px;
+  overflow: hidden;
+  border: 10px solid;
+  border-color: #f5f5f5;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.MAP-MASTER .logo {
+  position: absolute;
+  width: 77px;
+  top: 46px;
+  left: 156px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ff7a00;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MAP-MASTER .back-arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 39px;
+  left: 12px;
+  object-fit: cover;
+}
+
+.MAP-MASTER .text-wrapper {
+  position: absolute;
+  width: 384px;
+  top: 97px;
+  left: 6px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: normal;
+}
+
+.MAP-MASTER .map-pic {
+  position: absolute;
+  width: 324px;
+  height: 485px;
+  top: 216px;
+  left: 32px;
+  object-fit: cover;
+}
+
+.MAP-MASTER .iphone-top {
+  position: absolute;
+  width: 349px;
+  height: 32px;
+  top: 0;
+  left: 16px;
+}
+
+.MAP-MASTER .overlap-group {
+  position: relative;
+  width: 347px;
+  height: 32px;
+}
+
+.MAP-MASTER .overlap-group-5 {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  top: 10px;
+  left: 11px;
+  }
+
+.MAP-MASTER .status-bar-iphone-x {
+  position: absolute;
+  width: 258px;
+  height: 32px;
+  top: 0;
+  left: 42px;
+}
+
+.MAP-MASTER .notch {
+  position: relative;
+  width: 219px;
+  height: 30px;
+  top: -2px;
+  left: 19px;
+}
+
+.MAP-MASTER .img {
+  position: absolute;
+  width: 219px;
+  height: 28px;
+  top: 2px;
+  left: 0;
+}
+
+.MAP-MASTER .time {
+  position: absolute;
+  width: 54px;
+  top: 12px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.MAP-MASTER .right-side {
+  position: absolute;
+  width: 67px;
+  height: 11px;
+  top: 16px;
+  left: 280px;
+}
+
+.MAP-MASTER .iphone-bottom {
+  position: absolute;
+  width: 454px;
+  height: 147px;
+  top: 720px;
+  left: -37px;
+}
+
+.MAP-MASTER .overlap {
+  position: relative;
+  height: 147px;
+  border-radius: 20px;
+}
+
+.MAP-MASTER .bottom-panel-updated {
+  position: absolute;
+  width: 454px;
+  height: 147px;
+  top: 0;
+  left: 0;
+  background-color: #ffa654;
+  border-radius: 20px;
+}
+
+.MAP-MASTER .chat-icon {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 15px;
+  left: 323px;
+  object-fit: cover;
+}
+
+.MAP-MASTER .profile-button {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 17px;
+  left: 323px;
+  object-fit: cover;
+}
+
+.MAP-MASTER .home-icon {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 15px;
+  left: 204px;
+  object-fit: cover;
+}
+
+.MAP-MASTER .div {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  top: 10px;
+  left: 11px;
+}
+
+.MAP-MASTER .home-right-fill {
+  position: absolute;
+  width: 13px;
+  height: 26px;
+  top: 18px;
+  left: 2px;
+  background-color: #ffffff;
+}
+
+.MAP-MASTER .home-left-fill {
+  position: absolute;
+  width: 13px;
+  height: 26px;
+  top: 18px;
+  left: 28px;
+  background-color: #ffffff;
+}
+
+.MAP-MASTER .home-top-fill {
+  position: absolute;
+  width: 44px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.MAP-MASTER .home-indicator {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  top: 107px;
+  left: 166px;
+  background-color: #000000;
+  border-radius: 100px;
+  background-image: url(../static/img/home-outline.png);
+}

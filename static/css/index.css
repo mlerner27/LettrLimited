@@ -30,11 +30,11 @@
 .button-primary {
   top: 194px;
   background-color: var(--system-background-light-primary);
-  color: var(--color-sandybrown-300);
+  color: #fca351;
 }
 .button-secondary {
   top: 264px;
-  background-color: var(--color-orangered);
+  background-color: #ff6001;
 }
 .finding-you-a,
 .lettr {
@@ -45,14 +45,14 @@
 .finding-you-a {
   top: 132px;
   left: calc(50% - 134px);
-  font-size: var(--font-size-8xl);
+  font-size: 27px;
   width: 268px;
   height: 48px;
 }
 .lettr {
   top: calc(50% - 160px);
   left: calc(50% - 137px);
-  font-size: var(--font-size-91xl);
+  font-size: 110px;
   width: 264px;
   height: 118px;
 }
@@ -94,7 +94,7 @@
   left: 0;
   letter-spacing: -0.5px;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 900;
   display: inline-block;
   height: 20px;
 }
@@ -126,7 +126,7 @@
   left: 0;
   letter-spacing: -0.5px;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 900;
   display: inline-block;
   width: 54px;
   height: 20px;
@@ -144,9 +144,8 @@
   left: 15px;
   width: 346.7px;
   height: 32px;
-  font-size: var(--subheadline-regular-size);
+  font-size: var(--font-size-mini);
   color: var(--label-color-light-primary);
-  font-family: var(--subheadline-regular);
 }
 .main {
   position: relative;
@@ -159,7 +158,7 @@
   height: 864px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--default-regular-callout-size);
+  font-size: var(--font-size-base);
   color: var(--system-background-light-primary);
   font-family: var(--font-inter);
 }

@@ -1,144 +1,105 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
     <link rel="stylesheet" href="../static/css/global.css" />
-    <link rel="stylesheet" href="../static/css/chatmaster.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@400;500;600;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=SF Pro Display:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Helvetica:wght@700&display=swap"
-    />
+    <link rel="stylesheet" href="../static/css/final-swipe.css" />
+    <link rel="stylesheet" href="../static/css/globals-chat.css" />
+    <link rel="stylesheet" href="../static/css/styleguide-chat.css" />
+    <link rel="stylesheet" href="../static/css/style-chat.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/chatmaster.js') }}"></script>
+    <script src="../static/js/chatmaster.js"></script>
+
+    <script>
+      var data = {{data|tojson}}
+    </script>
   </head>
   <body>
-    <div class="chat-master">
-      <div class="divider">
-        <div class="ignore-forced-height"></div>
-      </div>
-      <div class="chat-home">
-        <b class="chats">Chats</b>
-        <img class="archive-icon" alt="" src="../static/img/archive-icon@2x.png" />
-
-        <img
-          class="preferences-icon"
-          alt=""
-          src="../static/img/preferences-icon@2x.png"
-        />
-
-        <div class="home-indicator1"></div>
-        <div class="chat-3">
-          <img
-            class="chat-3-preview"
-            alt=""
-            src="../static/img/chat-3-preview@2x.png"
-          />
-
-          <b class="my-dogs-name">My dog’s name is Liam!</b>
-          <b class="logan-w-116th">Logan: W 116th & Amsterdam</b>
-        </div>
-        <div class="message-notif"></div>
-        <div class="iphone-top1">
-          <div class="status-bar-iphone-x-or-newe1">
-            <img class="notch-icon1" alt="" src="../static/img/notch.svg" />
-
+    <div class="CHAT-MASTER">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="divider"><div class="ignore-forced-height"></div></div>
+          <div class="CHAT-HOME">
+            <div class="text-wrapper">Chats</div>
+            <a href="{{ url_for('prefs') }}">
+            <img class="preferences-icon" src="../static/img/preferences-icon.png" />
+            </a>
+            <div class="chat">
+              <div class="overlap-group">
+                <div class="div">
+                  <!-- <img class="chat-preview" src="../static/img/chat-3-preview.png" />
+                  <p class="logan-w">Logan: W 116th &amp; Amsterdam</p>
+                  <p class="p">My dog’s name is Liam!</p> -->
+                </div>
+                
+              </div>
+            </div>
+            <!-- <div class="message-notif"></div> the new message icon -->
+            <div class="iphone-top">
+              <div class="overlap-2">
+                <div class="status-bar-iphone-x">
+                  <div class="notch"><img class="img" src="../static/img/notch-11.svg" /></div>
+                </div>
+                <div class="text-wrapper-2">9:41</div>
+                <img class="right-side" src="../static/img/right-side-8.png" />
+              </div>
+            </div>
+            <div class="bottom-panel1"></div>
+            <a href="{{ url_for('chat') }}">
+            <img class="chat-icon1" alt="" src="../static/img/chat-icon@2x.png" />
+            </a>
+            <a href="{{ url_for('personal') }}">
             <img
-              class="right-side-icon2"
+              class="profile-button-icon1"
               alt=""
-              src="../static/img/right-side.svg"
+              src="../static/img/profile-icon@2x.png"
             />
-
-            <div class="left-side1">
-              <div class="time1">
-                <div class="div2">9:41</div>
+            </a>
+            <div class="home-icon1">
+              <a href="{{ url_for('swipe') }}">
+              <img
+                class="home-outline-icon1"
+                alt=""
+                src="../static/img/home-outline@2x.png"
+              />
+              </a>
+              <div class="home-right-fill1"></div>
+              <div class="home-left-fill1"></div>
+              <img class="home-top-fill1" alt="" src="../static/img/home-top-fill.svg" />
+            </div>
+            <div class="home-indicator2"></div>
+          <div class="text-wrapper-3">Awaiting Response</div>
+          <div class="text-wrapper-4">Matches</div>
+          <div class="likes-panel">
+            <!-- <img class="like-preview" src="../static/img/like-2-preview.png" />
+            <img class="like-preview-2" src="../static/img/like-3-preview.png" />
+            <img class="like-preview-3" src="../static/img/like-4-preview.png" />
+            <img class="like-preview-4" src="../static/img/like-1-preview.png" /> -->
+          </div>
+          <div class="ignore-forced-height-wrapper"><div class="ignore-forced-height"></div></div>
+          <div class="chat-2">
+            <!-- <img class="chat-preview" src="../static/img/chat-2-preview.png" />
+            <p class="text-wrapper-5">You can pass by anytime bet..</p>
+            <div class="name-addr">Steven: Franklin &amp; Broadway</div> -->
+          </div>
+          <div class="div-wrapper"><div class="ignore-forced-height"></div></div>
+          <div class="divider-2"><div class="ignore-forced-height"></div></div>
+          <div class="chat-3">
+            <!-- <img class="chat-preview" src="../static/img/chat-1-preview.png" />
+            <div class="text-wrapper-6">Are the neighbors loud?</div>
+            <p class="emily-e">Emily: E 72nd &amp; Lexington</p> -->
+          </div>
+          <div class="divider-3"><div class="ignore-forced-height"></div></div>
+          <div class="overlap-group-wrapper">
+            <div class="overlap-4">
+              <div class="overlap-5">
+                <!-- <div class="text-wrapper-7">Sounds good!</div>
+                <div class="adam">Adam: 6th &amp; 9th</div>
+                <img class="chat-preview" src="../static/img/chat-0-preview.png" /> -->
               </div>
             </div>
           </div>
-          <div class="div3">9:41</div>
-          <img class="right-side-icon3" alt="" src="../static/img/right-side1.svg" />
         </div>
-        <div class="bottom-panel">
-          <div class="icon-box"></div>
-          <img class="chat-icon" alt="" src="../static/img/chat-icon@2x.png" />
-
-          <div class="home-icon">
-            <img
-              class="home-outline-icon"
-              alt=""
-              src="../static/img/home-outline@2x.png"
-            />
-
-            <div class="home-right-fill"></div>
-            <div class="home-left-fill"></div>
-            <img
-              class="home-top-fill"
-              alt=""
-              src="../static/img/home-top-fill.svg"
-            />
-          </div>
-          <img class="profile-icon" alt="" src="../static/img/profile-icon@2x.png" />
-        </div>
-      </div>
-      <b class="awaiting-response">Awaiting Response</b>
-      <b class="matches">Matches</b>
-      <img class="likes-panel-icon" alt="" src="../static/img/likes-panel@2x.png" />
-
-      <div class="divider1">
-        <div class="ignore-forced-height"></div>
-      </div>
-      <div class="chat-2">
-        <img
-          class="chat-3-preview"
-          alt=""
-          src="../static/img/chat-2-preview@2x.png"
-        />
-
-        <b class="you-can-pass">You can pass by anytime bet..</b>
-        <b class="steven-franklin">Steven: Franklin & Broadway</b>
-      </div>
-      <div class="divider2">
-        <div class="ignore-forced-height"></div>
-      </div>
-      <div class="divider3">
-        <div class="ignore-forced-height"></div>
-      </div>
-      <div class="chat-1">
-        <img
-          class="chat-3-preview"
-          alt=""
-          src="../static/img/chat-1-preview@2x.png"
-        />
-
-        <b class="are-the-neighbors">Are the neighbors loud?</b>
-        <b class="emily-e-72nd">Emily: E 72nd & Lexington</b>
-      </div>
-      <div class="divider4">
-        <div class="ignore-forced-height"></div>
-      </div>
-      <div class="chat-0">
-        <b class="sounds-good">Sounds good!</b>
-        <b class="adam-6th">Adam: 6th & 9th</b>
-        <img
-          class="chat-3-preview"
-          alt=""
-          src="../static/img/chat-0-preview@2x.png"
-        />
       </div>
     </div>
   </body>
